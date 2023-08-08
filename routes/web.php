@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/espera', function () {
     return view('welcome');
 });
+Route::get('/', function () {
+    return view('welcomeedit');
+});
 Route::post('contactForm', 'App\Http\Controllers\emailController@send')->name('contactForm');
-// Route::get('/espera','App\Http\Controllers\NavigationController@index')->name('placeholder');
-Route::get('/','App\Http\Controllers\NavigationController@index')->name('placeholder');
 Route::get('/map','App\Http\Controllers\NavigationController@map')->name('map');

@@ -92,7 +92,7 @@ a:focus, a:active, button::-moz-focus-inner, input[type="reset"]::-moz-focus-inn
         padding: 0 90px;
     }
 }
-@media (min-width: 768px) and (max-width: 992px)) {
+@media (min-width: 768px) and (max-width: 992px) {
     .container {
         width: 100%;
         padding: 0 120px;
@@ -1153,7 +1153,7 @@ nav {
     }
     .navbar-right .dropdown-menu {
         right: auto;
-        left: 0;
+        left: auto;
     }
     .dropdown-menu {
         background-color: #1C1C1C;
@@ -2379,7 +2379,6 @@ blockquote strong {
     font-family: 'Exo', sans-serif;
     font-weight: 400;
 	width: 100%;
-	max-width: ;
 	padding: 12.9px;
 	color: #1c1c1c;
 	background: #f2f2f2;
@@ -2400,7 +2399,6 @@ textarea {
 	background: #f2f2f2;
 	border: 1px solid #f0f0f0;
 	margin-top: 7px;
-	margin-left: ;
 	margin-right:15px;
 	-webkit-border-radius: 2px;
 }
@@ -3705,7 +3703,6 @@ pre {
     font-family: 'Exo', sans-serif;
     font-weight: 400;
 	width: 100%;
-	max-width: ;
 	padding: 12.9px;
 	color: #1c1c1c;
 	background: #f2f2f2;
@@ -4188,4 +4185,8 @@ pre {
     body {
       min-height: 950px; } }
   
+#cover-img{
 
+    width: 100%;
+    height: auto;
+}
