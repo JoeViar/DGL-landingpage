@@ -4,7 +4,7 @@
 	@endsection
 	
 	@section('content')
-
+  
 
           <div class="container-fluid">   
             <div class="col-lg-12 grid-margin text-center ">

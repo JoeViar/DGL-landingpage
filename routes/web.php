@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\NavigationController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,11 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::controller(NavigationController::class)->group(function(){
+Route::get('/','index')->name('index');
+Route::get('/about_us','about_us')->name('about_us');
+    
+});
+    
+
+
 Route::get('/espera', function () {
     return view('welcome');
 });
-Route::get('/', function () {
-    return view('welcomeedit');
-});
+
 Route::post('contactForm', 'App\Http\Controllers\emailController@send')->name('contactForm');
 Route::get('/map','App\Http\Controllers\NavigationController@map')->name('map');
