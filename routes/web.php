@@ -14,16 +14,17 @@ use App\Http\Controllers\NavigationController;
 */
 
 Route::controller(NavigationController::class)->group(function(){
-Route::get('/','index')->name('index');
+Route::get('/espera','index')->name('index');
 Route::get('/about_us','about_us')->name('about_us');
+Route::get('/distributor','distributor')->name('distributor');
+Route::get('/find_us','find_us')->name('find_us');
+Route::get('/hr','hr')->name('hr');
     
 });
     
 
 
-Route::get('/espera', function () {
-    return view('welcome');
-});
+
 
 Route::post('contactForm', 'App\Http\Controllers\emailController@send')->name('contactForm');
 Route::get('/map','App\Http\Controllers\NavigationController@map')->name('map');

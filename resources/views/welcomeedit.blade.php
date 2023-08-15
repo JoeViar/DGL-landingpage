@@ -12,37 +12,37 @@
                  
               <div class="owl-carousel">
                 <div class="item">
-                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204140/banner_12.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/Amazon.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204172/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/bodesa.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204663/park-4174278_640.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/calzapato.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/chedraui.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204172/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/cyberpuerto.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204663/park-4174278_640.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/electrka.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/electrobike.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/elizondo.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/EXEL.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/huawei.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204140/banner_12.jpg" alt="image"/>
+                    <img src="{{asset('assets/logos/LogosPNG/Office-depot-logo.png')}}g" alt="image"/>
                 </div>
               </div>
               </div>
@@ -69,7 +69,7 @@
           <div id="job-offers" class="container-fluid  ">
             <div class="row justify-content-around">
               <img id="job_offers_img" src="{{asset('assets/logos/job_img.png')}}" alt="">
-              <h2> Explora nuestras <br/>
+              <h2> Explora nuestras <br/>  
 OFERTAS LABORALES
 </h2>
 
@@ -106,7 +106,7 @@ OFERTAS LABORALES
               <div class="row justify-content-center" id="blog_enty_row">
                   <div id="blog_entry" >
                     <div class="row ">
-                      <img id="blog_img" src="{{asset('assets/img/standby.png')}}" alt="">
+                        <img id="blog_img" src="{{asset('assets/img/standby.png')}}" alt="">
                     </div>
                     <div class="row justify-content-center">
                       <h4> Titulo </h4>

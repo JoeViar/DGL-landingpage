@@ -1,4 +1,5 @@
 
+
 (function () {
     const items = document.querySelectorAll(".timeline-section li");
     function isElementInViewport(el) {

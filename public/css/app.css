@@ -216,3 +216,78 @@ background-size: contain; /* Resize the background image to cover the entire con
     height: auto;
 }
 
+#distributor_discover{
+    
+    background-color:  #ff7b43;
+}
+#distributor_discover_icon{
+ font-size: 70px;
+}
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+.type1 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    border: 3px solid #ff7b43;
+}
+#numbrer_our_numbers{
+    color: #ff7b43;
+}
+#disteributor_infrastructure{
+    background-image:  linear-gradient( rgba(152,162,165,.7) , rgba(152,162,165,.7) ), url('../assets/img/background-corporative.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: 20%, 20%;
+   
+}
+#icon_infrastructure{
+ font-size: 100px;
+}
+.btn{
+    color: #ffffff;
+    background-color: #ff7b43;
+}
+#form-div{
+    border: #ff7b43;
+    border-style: solid;
+    border-radius:  1rem;
+    margin-bottom: 1%;
+}
+#find_us_icon{
+    color: #ff7b43;
+    font-size: 500%;
+}
+#map {
+    height: 400px;
+   
+}
+#title_row{
+    font-size: 500%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#image_row{
+    height: auto;
+    width: 50%;
+}
+#job_entry{
+    border: solid;
+    border-radius: 15px;
+    background-color: #d2edf4;
+
+}
+
+
+/* .layer{
+    background-color: rgba(248, 247, 216, 0.7);
+    
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 100%;
+} */
