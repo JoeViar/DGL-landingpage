@@ -17,7 +17,10 @@
     <nav class="navbar navbar-light navbar-expand-md m-0  bg-light" style="background-color: rgba(0,0,0,0.3);">
         <div class="container">
             <!-- <a class="navbar-brand" href="#">BBBOOTSTRAP</a> -->
-           <img id="nav_logo" src="{{asset('img/assets/logo-big.png')}}" alt="">
+       <a id="nav_logo1" href="{{url('/')}}">
+              <img id="nav_logo" src="{{asset('img/assets/logo-big.png')}}" alt="">
+        </a>
+     
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
@@ -26,13 +29,13 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('find_us')}}">Encuentranos</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('hr')}}">Bolsa de trabajo </a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blog')}}">Blog</a></li>
 
 
                 </ul>
                 <ul class="nav navbar-nav ml-auto">
                    
-                    <img id="user_logo"  src="{{asset('assets/img/user_icon.png')}}" alt=""></li>
+                    <!-- <img id="user_logo"  src="{{asset('assets/img/user_icon.png')}}" alt=""></li> -->
                     
                 </ul>
             </div>
@@ -47,22 +50,46 @@
      
     @endphp
 
-    <div class="container-fluid " id="header_img" >
-    <div class="text-center" >
+    <div class="container-fluid py-4  " id="header_img" >
+    <div class="container" >
+      <div class="row ">
+        <div class="col-md-12 mt-5 center-block text-center">
+
          
-        @if($dir=='index')
-            <h1 id="header_title" >Conviértete en distribuidor </h1>
+          @if($dir=='index')
+            <h1 class="mb-5 text-center"id="header_title" > Conocenos </h1>
 
-        @else
+          @else
             @if($dir=='about_us')
-                <h1 id="header_title" >Conviértete en distribuidor </h1>
+              <h1 class="" id="header_title" >Sobre Nosotros  </h1>
             @else
+              @if($dir=='distribuitor')
+                <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+              @else
+                @if($dir=='find_us')
+                  <h1 class="" id="header_title" >Encuéntranos </h1>
+                @else
+                  @if($dir=='hr')
+                    <h1 class="" id="header_title" >Bolsa de trabajo </h1>
+                  @else
+                    @if($dir=='blog')
+                      <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+                    @endif
+                  @endif
+                @endif
 
+
+              @endif
             @endif
 
-        @endif
-       
-        <button id="header_button"type="button" class="btn ">Conoce más</button>
+          @endif
+        </div>
+      </div>
+       <div class="row my-5 p-y5 text-center">
+         <div class="col-md-12 mt-5 center-block text-center justify-content-center">
+          <button  id="header_button"type="button" class="btn mt-5">Conoce más</button>
+        </div>
+       </div>
     </div>
 
 
@@ -109,6 +136,40 @@
 
 
 <script type="text/javascript">
+
+  
+    
+
+
+const colorChangeDivs = document.querySelectorAll(".timeline-body");
+
+window.addEventListener("scroll", () => {
+    colorChangeDivs.forEach((div) => {
+        const rect = div.getBoundingClientRect();
+
+        // Check if the top of the div is within the viewport
+        if (rect.bottom >= 0 && rect.bottom <= window.innerHeight) {
+            // Change the background color when it's in view
+            // div.style.backgroundColor = "#f0";
+            div.style.fontWeight="bold";
+            div.style.color="#000";
+        } else {
+            // Reset the background color when it's out of view
+            // div.style.backgroundColor = "white";
+            div.style.fontWeight="normal";
+            div.style.color="#ccc";
+
+
+        }
+        
+    });
+});
+
+
+
+
+   
+
 var map;
 let marker;
 let geocoder;

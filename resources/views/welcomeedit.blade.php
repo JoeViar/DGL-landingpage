@@ -6,50 +6,142 @@
 	@section('content')
   
 
-          <div class="container-fluid">   
+          <div class="container-fluid my-3 py-3">   
             <div class="col-lg-12 grid-margin text-center ">
               <h3 id="orange_title">Nuestros Aliados </h3>
                  
-              <div class="owl-carousel">
+              <div class="owl-carousel my-4">
                 <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/Amazon.png')}}" alt="image"/>
-                </div>
-                <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/bodesa.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/amazon.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/calzapato.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/batta-hermanos.png')}}" alt="image"/>
+                </div>
+
+                <div class="item">
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/bodesa.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/calzapato.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/chapur.png')}}" alt="image"/>
+                </div>
+
+                 <div class="item">
+                    <img  id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/chedraui.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/claro.png')}}" alt="image"/>
+                </div>
+
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/ct.png')}}" alt="image"/>
+                </div>
+
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/cva.png')}}" alt="image"/>
+                </div>
+
+                 <div class="item">
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/cyberpuerta.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/delta.png')}}" alt="image"/>
+                </div>
+
+                 <div class="item">
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/elektra.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/chedraui.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/ekectropbike.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/cyberpuerto.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/elizondo.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/electrka.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/exel.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/electrobike.png')}}" alt="image"/>
+                    <img   id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/huawei.png')}}" alt="image"/>
                 </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/ingrammicro.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/la-gran-ciudad.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/ley.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/linio.png')}}" alt="image"/>
+                </div>
+
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/liverpool.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/lumen.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/macro.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/mavi.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/mercadolibre.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/mixup.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/mobo.png')}}" alt="image"/>
+                </div>
+
                  <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/elizondo.png')}}" alt="image"/>
+                    <img   id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/office.png')}}" alt="imaaage"/>
                 </div>
-                 <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/EXEL.png')}}" alt="image"/>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/pcel.png')}}" alt="image"/>
                 </div>
-                 <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/huawei.png')}}" alt="image"/>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/privalia.png')}}" alt="image"/>
                 </div>
-                 <div class="item">
-                    <img src="{{asset('assets/logos/LogosPNG/Office-depot-logo.png')}}g" alt="image"/>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/rac.png')}}" alt="image"/>
                 </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/rac2.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/radioshack.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/sams.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/surtidora.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/viastara.png')}}" alt="image"/>
+                </div>
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/vpg.png')}}" alt="image"/>
+                </div>
+
+                <div class="item">
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/logosPNG/LogosSize/walmart.png')}}" alt="image"/>
+                </div>
+
               </div>
               </div>
               </div> 
              
        
         <div class="container-fluid  " id="our_history">   
+         <a href="{{url('about_us')}}">
           <div class="row m-1 h-100 ">
             <div class="col p-1 h-100 text-center">
               <h2 id="our_history_title" > Nuestra historia</h2>
@@ -58,30 +150,58 @@
               <img id="our_history_img"src="{{asset('assets/logos/founders.jpg')}}" alt="">
             </div>
           </div>
+          </a>
         </div>
 
-          <div class="container-fluid d-flex justify-content-center">
+          <div class="container-fluid d-flex justify-content-center p-5">
             <img id="channels" src="{{asset('assets/logos/channel.png')}}" alt="">
           </div>
 
        
 
-          <div id="job-offers" class="container-fluid  ">
-            <div class="row justify-content-around">
-              <img id="job_offers_img" src="{{asset('assets/logos/job_img.png')}}" alt="">
-              <h2> Explora nuestras <br/>  
-OFERTAS LABORALES
-</h2>
+        <div id="job-offers" class="container-fluid  p-5">
+          <a  href="{{url('hr')}}"> 
+            <div class="div-monitor">
+              <div class="row  my-5 ">
+                <div class="col-md-6 d-flex  justify-content-end ">
+                  <img id="job_offers_img" class="rounded float-end" src="{{asset('assets/logos/job_img.png')}}" alt="">
+                </div>
+                
+                <div class="col-md-6 p-3">
 
+                  <h2 style="font-size:5rem; color: 000;" class="m-1 "> Explora nuestras <br/>  
+                    OFERTAS LABORALES
+                    </h2>
+
+                </div>
+                
+
+              </div>
             </div>
-          </div>
+            <div class="div-mobile">
+              <div class="row justify-content-center my-5">
+                <div class="col-md-6 text-center">
+                  <img id="job_offers_img" class="rounded float-end " src="{{asset('assets/logos/job_img.png')}}" alt="">
 
-         <div class="container-fluid  ">
-          <div class="row justify-content-center p-5">
-            <h3>BLOG </h3>
+                </div>
+                <div class="col-md-6">
+                    <h2 style="font-size:1.8rem;" class="m-1"> Explora nuestras <br/>  
+                      OFERTAS LABORALES
+                    </h2>
+
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+
+         <div class="container-fluid p-4 ">
+          <div class="row justify-content-center mt-5">
+            <h3 style="font-size: 3rem;"  >BLOG </h3>
           </div>
            
-           <div class="row justify-content-center p-5">
+           <div class="row justify-content-center p-2">
           
             <div class="col  text-center">
                 <div class="row justify-content-center" id="blog_enty_row">

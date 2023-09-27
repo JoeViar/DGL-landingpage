@@ -14,12 +14,12 @@ use App\Http\Controllers\NavigationController;
 */
 
 Route::controller(NavigationController::class)->group(function(){
-Route::get('/espera','index')->name('index');
+Route::get('/','index')->name('index');
 Route::get('/about_us','about_us')->name('about_us');
 Route::get('/distributor','distributor')->name('distributor');
 Route::get('/find_us','find_us')->name('find_us');
 Route::get('/hr','hr')->name('hr');
-    
+Route::get('/blog','blog')->name('blog');
 });
     
 

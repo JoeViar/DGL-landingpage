@@ -26,4 +26,8 @@ class NavigationController extends Controller
     public function hr(){
         return view('hr');
     }
+    public function blog(){
+        return view('blog');
+    }
+
 }

@@ -6,12 +6,12 @@
 	@section('content')
   
 
-        <div class="container-fluid p-3  text-white  " id="distributor_discover">   
+        <div class="container-fluid p-4  text-white  " id="distributor_discover">   
           <div class="row justify-content-center ">
             <h2 class="text-white">Descubre DGL LATAM</h2>
           </div>
           <div class="row my-5 px-3 justify-content-center  ">
-            <div class="col ">
+            <div class="col mx-3 p-3">
                 <div class = "row  justify-content-center ">
                   <i class="fa fa-map-marker" aria-hidden="true" id="distributor_discover_icon"></i> 
                 </div>
@@ -19,7 +19,7 @@
                    <h5 >90% de los Distribuidores en México </h5>
                 </div>
             </div>
-             <div class="col">
+             <div class="col mx-3 p-3">
                 <div class = "row  justify-content-center ">
                   <i class="fa fa-shopping-cart" aria-hidden="true" id="distributor_discover_icon"></i> 
                 </div>
@@ -27,7 +27,7 @@
                    <h5 >8 Tiendas de Experiencia  </h5>
                 </div>
              </div>
-             <div class="col">
+             <div class="col mx-3 p-3">
                 <div class = "row  justify-content-center ">
                 <i class="fa-solid fa-truck-ramp-box" aria-hiden="true" id="distributor_discover_icon"></i>                </div>
                 <div class="row  justify-content-center ">
@@ -36,7 +36,7 @@
             </div>             
           </div>
           <div class="row my-5 justify-content-center text-center">
-             <div class="col">
+             <div class="col mx-3 p-3">
                 <div class = "row  justify-content-center ">
                   <i class="fa-solid fa-microchip" aria-hidden="true" id="distributor_discover_icon"></i> 
                 </div>
@@ -44,7 +44,7 @@
                    <h5 > 10 años en la Industria de la Tecnología  </h5>
                 </div>
              </div>
-             <div class="col">
+             <div class="col mx-3 p-3">
                 <div class = "row  justify-content-center ">
                   <i class="fa fa-globe" aria-hidden="true" id="distributor_discover_icon"></i> 
                 </div>
@@ -59,8 +59,8 @@
         </div> 
              
        
-        <div class="container-fluid " > 
-          <div class="row m-1  justify-content-center" >
+        <div class="container-fluid p-5" > 
+          <div class="row m-1 p-5  text-center justify-content-center" >
             <h2 id="orange_title">NUESTROS NUMEROS HABLAN </h2>
           </div>  
           <div class="row m-1 h-100 ">
@@ -68,7 +68,7 @@
               <div class="row justify-content-center">
                 <div class="circleBase justify-content-center type1 d-flex">
                 <div class="row justify-content-center align-self-center">
-                   <h3 id="numbrer_our_numbers">420</h3>
+                   <h3 class=" numbrer_our_numbers" id="numbrer_our_numbers_1"></h3>
                 </div>  
 
                 </div>
@@ -81,7 +81,7 @@
             <div class="row justify-content-center">
                 <div class="circleBase type1 justify-content-center d-flex">
                  <div class="row justify-content-center align-self-center">
-                    <h3 id="numbrer_our_numbers">8400</h3>
+                    <h3 class=" numbrer_our_numbers"  id="numbrer_our_numbers_2">8400</h3>
                  </div> 
                 </div>
               </div>
@@ -93,7 +93,7 @@
               <div class="row justify-content-center">
                 <div class="circleBase type1 justify-content-center d-flex">
                 <div class="row justify-content-center align-self-center">
-                    <h3 id="numbrer_our_numbers">15960</h3>
+                    <h3 class=" numbrer_our_numbers"  id="numbrer_our_numbers_3"></h3>
                  </div>
                 </div>
               </div>
@@ -106,8 +106,8 @@
         </div>
 
           <div class="container-fluid p-4 my-2 text-white " id="disteributor_infrastructure">
-           <div class="row p-2 justify-content-center">
-             <h2> Infraestructura</h2>
+           <div class="row p-2 my-4  text-center justify-content-center">
+             <h2 style="font-size:2 rem;"> Infraestructura</h2>
             
            </div>
            <div class="row p-2 my-3 justify-content-center text-center">
@@ -192,7 +192,66 @@
       
          
           
-          
+          <script type="text/javascript">
+        const counterElement = document.getElementById("numbrer_our_numbers_1");
+        const counterElement2 = document.getElementById("numbrer_our_numbers_2");
+        const counterElement3 = document.getElementById("numbrer_our_numbers_3");
+
+        const duration = 200; // Animation duration in milliseconds
+        const targetValue1 = 420;
+        const targetValue2 = 8400;
+        const targetValue3 = 15960;
+
+        const initialValue = 0;
+        const increment = 1;
+        const increment2 = 10;
+        const increment3= 100;
+        const interval1 = duration / (targetValue1 - initialValue + 1);
+        const interval2 = duration / (targetValue2 - initialValue + 1);
+        const interval3 = duration / (targetValue3 - initialValue + 1);
+
+        function animateCounter() {
+            let currentValue = initialValue;
+
+            const intervalId = setInterval(() => {
+                currentValue += increment;
+                counterElement.textContent = currentValue;
+
+                if (currentValue >= targetValue1) {
+                    clearInterval(intervalId);
+                }
+            }, interval1);
+        }
+        function animateCounter2() {
+            let currentValue = initialValue;
+
+            const intervalId = setInterval(() => {
+                currentValue += increment2;
+                counterElement2.textContent = currentValue;
+
+                if (currentValue >= targetValue2) {
+                    clearInterval(intervalId);
+                }
+            }, interval2);
+        }
+        function animateCounter3() {
+            let currentValue = initialValue;
+
+            const intervalId = setInterval(() => {
+                currentValue += increment3;
+                counterElement3.textContent = currentValue;
+
+                if (currentValue >= targetValue3) {
+                    clearInterval(intervalId);
+                }
+            }, interval3);
+        }
+
+        
+        animateCounter2();
+        animateCounter();
+        animateCounter3();
+</script>
         
 
 
