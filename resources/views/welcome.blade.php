@@ -35,7 +35,7 @@
 <link rel="stylesheet" href="css/colors/green.css" id="color-skins"/>
 </head>
 <body>
-   <div class="Home" style="width: 1440px; height: 4373px; position: relative; background: white">
+   <div class="Dashboard" style="width: 1440px; height: 4373px; position: relative; background: white">
   <div class="Blog" style="width: 1120px; height: 810px; left: 160px; top: 3139px; position: absolute">
     <div class="Blog" style="width: 144px; height: 60px; left: 468px; top: 0px; position: absolute; text-align: center; color: black; font-size: 50px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Blog</div>
     <div class="Rectangle3" style="width: 508px; height: 708px; left: 0px; top: 102px; position: absolute; background: white; box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 76px; border: 1px black solid"></div>

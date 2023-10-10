@@ -141,7 +141,8 @@
        
 
           <div  class="container-fluid  ">
-          <form>
+          <form method="POST"  action="{{ route('distribuitorContact') }}">
+          @csrf
             <div class="container py-5" id="form-div">
                 <div class="row">
                     <div class="col-md-10 mx-auto">
@@ -157,7 +158,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <label for="inputLastname">*Teléfono</label>
-                                    <input type="tel" class="form-control"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="inputLastname" placeholder="123456789">
+                                    <input type="tel" class="form-control"   id="inputLastname" placeholder="123456789">
                                 </div>
                             </div>
                             <div class="form-group row px-3">

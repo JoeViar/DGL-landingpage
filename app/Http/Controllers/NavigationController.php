@@ -29,5 +29,12 @@ class NavigationController extends Controller
     public function blog(){
         return view('blog');
     }
+    public function blogEntry($id){
+       
+        dd($id);
+        
+        
+    }
+
 
 }

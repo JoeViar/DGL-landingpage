@@ -3,22 +3,35 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Contact;
+use Mail;
+use Illuminate\Support\Facades\Redirect;
 
-class emailController extends Controller
+use App\Mail\ContactMail;
+
+
+
+class EmailController extends Controller
 {
-    /**
- * Store a new blog post.
- *
- * @param  \Illuminate\Http\Request  $request
- * @return \Illuminate\Http\Response
- */
- public function send(Request $request) {
-   
- 
-    Contact::create($request->all());
-  
-    return redirect()->back()
-                     ->with(['success' => 'Gracias un representante de DGL se podrá en contacto con usted en breve.']);
- }
+
+    public function emailDistrbution(){
+
+
+        $data = [
+
+            'title' => 'Correo interesados',
+
+            'body' => 'This is for testing email using smtp.'
+
+        ];
+
+
+
+        Mail::to('viart211@gmail.com')->send(new ContactMail($data));
+
+
+
+        // return Redirect::back()->with('msg' => 'The Message');
+
+
+    }
 }

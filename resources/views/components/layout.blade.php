@@ -29,7 +29,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('find_us')}}">Encuentranos</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('hr')}}">Bolsa de trabajo </a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blog')}}">Blog</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blogDisp')}}">Blog</a></li>
 
 
                 </ul>

@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NavigationController;
+use App\Http\Controllers\EmailController;
+use App\Http\Controllers\BlogController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,12 +23,34 @@ Route::get('/about_us','about_us')->name('about_us');
 Route::get('/distributor','distributor')->name('distributor');
 Route::get('/find_us','find_us')->name('find_us');
 Route::get('/hr','hr')->name('hr');
-Route::get('/blog','blog')->name('blog');
+Route::get('/blogDisp','blog')->name('blogDisp');
+
 });
     
 
 
+  
+  
 
 
-Route::post('contactForm', 'App\Http\Controllers\emailController@send')->name('contactForm');
+
+Route::controller(EmailController::class)->group(function(){
+  Route::post('/distribuitorContact','emailDistrbution')->name('distribuitorContact');
+    });
+        
+    
+
+
 Route::get('/map','App\Http\Controllers\NavigationController@map')->name('map');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+    
+    Route::resource('blog', BlogController::class);
+});
