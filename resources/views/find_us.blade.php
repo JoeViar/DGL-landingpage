@@ -10,7 +10,7 @@
        
         <div class="container-fluid " > 
           <div class="row m-1  justify-content-center" >
-            <h2 id="orange_title">Encuentranos </h2>
+            <h2 id="orange_title">Encuéntranos </h2>
           </div>  
           <div class="row m-1 h-100 ">
             <div class="col p-1 h-100 text-center ">

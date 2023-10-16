@@ -73,7 +73,7 @@
     <img class="HeaderImg" style="width: 1440px; height: 804px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/1440x804" />
     <img class="DglLatam1" style="width: 224px; height: 68px; left: 22px; top: 17px; position: absolute" src="https://via.placeholder.com/224x68" />
     <div class="SUnDistriudor" style="width: 166px; height: 30px; left: 700px; top: 25px; position: absolute; color: black; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Sé un Distriudor</div>
-    <div class="Encuentranos" style="width: 186px; height: 30px; left: 882px; top: 25px; position: absolute; color: black; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Encuentranos</div>
+    <div class="Encuéntranos" style="width: 186px; height: 30px; left: 882px; top: 25px; position: absolute; color: black; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Encuéntranos</div>
     <div class="SobreNosotros" style="width: 186px; height: 30px; left: 514px; top: 25px; position: absolute; color: black; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Sobre Nosotros</div>
     <div class="BolsaDeTrabajo" style="width: 186px; height: 30px; left: 1061px; top: 25px; position: absolute; color: black; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Bolsa de Trabajo</div>
     <div class="Blog" style="width: 46px; height: 30px; left: 1247px; top: 25px; position: absolute; color: black; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Blog</div>
@@ -85,7 +85,7 @@
     <img class="DglLatam1" style="width: 163px; height: 156px; left: 663px; top: 0px; position: absolute" src="https://via.placeholder.com/163x156" />
     <div class="Rectangle3" style="width: 1440px; height: 218px; left: 0px; top: 202px; position: absolute; background: #E03F0A"></div>
     <div class="SUnDistriudor" style="width: 166px; height: 30px; left: 510px; top: 246px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Sé un Distriudor</div>
-    <div class="Encuentranos" style="width: 186px; height: 30px; left: 744px; top: 246px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Encuentranos</div>
+    <div class="Encuéntranos" style="width: 186px; height: 30px; left: 744px; top: 246px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Encuéntranos</div>
     <div class="SobreNosotros" style="width: 186px; height: 30px; left: 256px; top: 246px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Sobre Nosotros</div>
     <div class="BolsaDeTrabajo" style="width: 186px; height: 30px; left: 923px; top: 246px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Bolsa de Trabajo</div>
     <div class="Blog" style="width: 46px; height: 30px; left: 1137px; top: 246px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Blog</div>

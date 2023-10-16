@@ -59,7 +59,7 @@
         </div> 
              
        
-        <div class="container-fluid p-5" > 
+        <div class="container-fluid p-5 milestones" > 
           <div class="row m-1 p-5  text-center justify-content-center" >
             <h2 id="orange_title">NUESTROS NUMEROS HABLAN </h2>
           </div>  
@@ -194,65 +194,87 @@
          
           
           <script type="text/javascript">
-        const counterElement = document.getElementById("numbrer_our_numbers_1");
-        const counterElement2 = document.getElementById("numbrer_our_numbers_2");
-        const counterElement3 = document.getElementById("numbrer_our_numbers_3");
-
-        const duration = 200; // Animation duration in milliseconds
-        const targetValue1 = 420;
-        const targetValue2 = 8400;
-        const targetValue3 = 15960;
-
-        const initialValue = 0;
-        const increment = 1;
-        const increment2 = 10;
-        const increment3= 100;
-        const interval1 = duration / (targetValue1 - initialValue + 1);
-        const interval2 = duration / (targetValue2 - initialValue + 1);
-        const interval3 = duration / (targetValue3 - initialValue + 1);
-
-        function animateCounter() {
-            let currentValue = initialValue;
-
-            const intervalId = setInterval(() => {
-                currentValue += increment;
-                counterElement.textContent = currentValue;
-
-                if (currentValue >= targetValue1) {
-                    clearInterval(intervalId);
-                }
-            }, interval1);
-        }
-        function animateCounter2() {
-            let currentValue = initialValue;
-
-            const intervalId = setInterval(() => {
-                currentValue += increment2;
-                counterElement2.textContent = currentValue;
-
-                if (currentValue >= targetValue2) {
-                    clearInterval(intervalId);
-                }
-            }, interval2);
-        }
-        function animateCounter3() {
-            let currentValue = initialValue;
-
-            const intervalId = setInterval(() => {
-                currentValue += increment3;
-                counterElement3.textContent = currentValue;
-
-                if (currentValue >= targetValue3) {
-                    clearInterval(intervalId);
-                }
-            }, interval3);
-        }
-
+          let cont=0;
+            const counterElement = document.getElementById("numbrer_our_numbers_1");
+            const counterElement2 = document.getElementById("numbrer_our_numbers_2");
+            const counterElement3 = document.getElementById("numbrer_our_numbers_3");
+    
+            const duration = 200; // Animation duration in milliseconds
+            const targetValue1 = 420;
+            const targetValue2 = 8400;
+            const targetValue3 = 15960;
+    
+            const initialValue = 0;
+            const increment = 1;
+            const increment2 = 10;
+            const increment3= 100;
+            const interval1 = duration / (targetValue1 - initialValue + 1);
+            const interval2 = duration / (targetValue2 - initialValue + 1);
+            const interval3 = duration / (targetValue3 - initialValue + 1);
+    
+            function animateCounter() {
+                let currentValue = initialValue;
+    
+                const intervalId = setInterval(() => {
+                    currentValue += increment;
+                    counterElement.textContent = currentValue;
+    
+                    if (currentValue >= targetValue1) {
+                        clearInterval(intervalId);
+                    }
+                }, interval1);
+                 cont=1;
+            }
+            function animateCounter2() {
+                let currentValue = initialValue;
+    
+                const intervalId = setInterval(() => {
+                    currentValue += increment2;
+                    counterElement2.textContent = currentValue;
+    
+                    if (currentValue >= targetValue2) {
+                        clearInterval(intervalId);
+                    }
+                }, interval2);
+            }
+            function animateCounter3() {
+                let currentValue = initialValue;
+    
+                const intervalId = setInterval(() => {
+                    currentValue += increment3;
+                    counterElement3.textContent = currentValue;
+    
+                    if (currentValue >= targetValue3) {
+                        clearInterval(intervalId);
+                    }
+                }, interval3);
+            }
+  
+const colorChangeDivs = document.querySelectorAll(".milestones");
+ 
+  window.addEventListener("scroll", () => {
+    colorChangeDivs.forEach((div) => {
+        const rect = div.getBoundingClientRect();
         
-        animateCounter2();
-        animateCounter();
-        animateCounter3();
-</script>
+            
+        if (rect.bottom >= 0 && rect.bottom <= window.innerHeight) {
+          
+            if(cont==0){
+              animateCounter();
+              animateCounter2();
+              animateCounter3(); 
+            }
+            
+            
+        } else {
+          
+
+        }
+        
+    });
+  });
+           
+    </script>
         
 
 

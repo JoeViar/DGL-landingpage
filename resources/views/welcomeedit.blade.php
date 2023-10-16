@@ -140,18 +140,30 @@
               </div> 
              
        
-        <div class="container-fluid  " id="our_history">   
+        <div class="container-fluid div-monitor " id="our_history">   
          <a href="{{url('about_us')}}">
-          <div class="row m-1 h-100 ">
-            <div class="col p-1 h-100 text-center">
+          <div class="row m-1  ">
+            <div  class="col p-1  d-flex justify-content-end align-items-center ">
               <h2 id="our_history_title" > Nuestra historia</h2>
             </div>
-            <div class="col p-1  col p-1 h-100 text-center">
-              <img id="our_history_img"src="{{asset('assets/logos/founders.jpg')}}" alt="">
+            <div class="col    text-center">
+              <img id="our_history_img" src={{asset('assets/logos/founders.jpg')}}  class="align-middle"alt="">
             </div>
           </div>
           </a>
         </div>
+        <div class="container-fluid div-mobile " id="our_history">   
+          <a href="{{url('about_us')}}">
+           <div class="row m-1  ">
+             <div  class="col p-1  d-flex justify-content-center align-items-center ">
+               <h2 id="our_history_title" > Nuestra historia</h2>
+             </div>
+             <div class="col    text-center">
+               <img id="our_history_img" src={{asset('assets/logos/founders.jpg')}}  class="align-middle"alt="">
+             </div>
+           </div>
+           </a>
+         </div>
 
           <div class="container-fluid d-flex justify-content-center p-5">
             <img id="channels" src="{{asset('assets/logos/channel.png')}}" alt="">
@@ -162,14 +174,14 @@
         <div id="job-offers" class="container-fluid  p-5">
           <a  href="{{url('hr')}}"> 
             <div class="div-monitor">
-              <div class="row  my-5 ">
-                <div class="col-md-6 d-flex  justify-content-end ">
+              <div class="row   justify-content-center my-5 ">
+                <div class="col-md-3 d-flex px-0  justify-content-end ">
                   <img id="job_offers_img" class="rounded float-end" src="{{asset('assets/logos/job_img.png')}}" alt="">
                 </div>
                 
-                <div class="col-md-6 p-3">
+                <div class="col-md-6 p-0 text-center">
 
-                  <h2 style="font-size:5rem; color: 000;" class="m-1 "> Explora nuestras <br/>  
+                  <h2 style="font-size:5vw; color: 000;" > Explora nuestras <br/>  
                     OFERTAS LABORALES
                     </h2>
 
@@ -206,8 +218,8 @@
             <div class="col  text-center">
                 <div class="row justify-content-center" id="blog_enty_row">
                   <div id="blog_entry" >
-                    <div class="row ">
-                      <img id="blog_img" src="{{asset('assets/img/standby.png')}}" alt="">
+                    <div class="row text-center">
+                      <img id="blog_img" src={{asset('assets/img/standby.png')}} alt="">
                     </div>
                     <div class="row justify-content-center">
                       <h4> Titulo </h4>

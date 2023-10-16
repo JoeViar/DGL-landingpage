@@ -12,7 +12,28 @@
 
 </head>
 <body>
+  <div class="container-fluid colorBlue">
+    <div class="row justify-content-end  my-1 ">
+      <div class="col-5 p-1 mx-2 align-items-center text-right">
+        <h3 style="font-size: calc(19px + .2vw);"  class="text-white">Siguenos en redes sociales </h3>
+      </div>
+      <div class="col-2  p-1">
+        <a href="https://www.linkedin.com/company/dgl-latam/mycompany/" >
+          <i id="headerLogo" class="fa-brands fa-linkedin-in fa-xl " ></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
 <div  id="base">
+  @php
+  $title="";
+  $dir=Request::route()->getName()
+
+ 
+  
+   
+  @endphp
 
     <nav class="navbar navbar-light navbar-expand-md m-0  bg-light" style="background-color: rgba(0,0,0,0.3);">
         <div class="container">
@@ -25,11 +46,46 @@
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav text-right text-white ml-auto">
+                  @if($dir=='about_us')
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('about_us')}}">Sobre nosostros</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('find_us')}}">Encuentranos</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('hr')}}">Bolsa de trabajo </a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blogDisp')}}">Blog</a></li>
+                  @else
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('about_us')}}">Sobre nosostros</a></li>
+
+                  @endif
+                  @if($dir=='distributor')
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
+
+                  @else
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
+
+                  @endif
+                  
+                  @if($dir=='find_us')
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('find_us')}}">Encuéntranos</a></li>
+
+                  @else
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('find_us')}}">Encuéntranos</a></li>
+
+                  @endif
+                  @if($dir=='hr')
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('hr')}}">Bolsa de trabajo</a></li>
+
+                  @else
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('hr')}}">Bolsa de trabajo</a></li>
+
+                  @endif
+
+                  @if($dir=='blogDisp')
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('blogDisp')}}">Blog</a></li>
+
+                  @else
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blogDisp')}}">Blog</a></li>
+
+                  @endif
+                  
+                    
+                    
+                    
 
 
                 </ul>
@@ -41,29 +97,22 @@
             </div>
         </div>
     </nav>
-    @php
-    $title="";
-    $dir=Request::route()->getName()
-
-   
-    
-     
-    @endphp
+  
 
     <div class="container-fluid py-4  " id="header_img" >
-    <div class="container" >
+    <div class="container-fluid" >
       <div class="row ">
-        <div class="col-md-12 mt-5 center-block text-center">
+        <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
 
          
           @if($dir=='index')
-            <h1 class="mb-5 text-center"id="header_title" > Conocenos </h1>
+            <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
 
           @else
             @if($dir=='about_us')
               <h1 class="" id="header_title" >Sobre Nosotros  </h1>
             @else
-              @if($dir=='distribuitor')
+              @if($dir=='distributor')
                 <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
               @else
                 @if($dir=='find_us')
@@ -72,8 +121,8 @@
                   @if($dir=='hr')
                     <h1 class="" id="header_title" >Bolsa de trabajo </h1>
                   @else
-                    @if($dir=='blog')
-                      <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+                    @if($dir=='blogDisp')
+                      <h1 class="" id="header_title" >Blog </h1>
                     @endif
                   @endif
                 @endif
@@ -87,7 +136,7 @@
       </div>
        <div class="row my-5 p-y5 text-center">
          <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-          <button  id="header_button"type="button" class="btn mt-5">Conoce más</button>
+          <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
         </div>
        </div>
     </div>
@@ -101,33 +150,72 @@
 
    
    
+        
+        
    
+
 
     <div class="container-fluid p-4" id=footer>
 
-        <div class="row justify-content-around text-center">
-            <div class="col">
-                <div class="row justify-content-center">
-                    <span id="footer_menu_left" class="text-white">Sobre Nosotros</span>
+        <div class="row justify-content-center mx-5 px-5 text-center">
+            <div class="col-md-2 p-1"> 
+                <a href={{url('about_us')}}>
+                  <span  class="text-white footer-text">Sobre Nosotros</span>   
+                </a>
+              </div>
+              <div class="col-md-3 p-1">
+                <a href={{url('distributor')}}>
+                  <span  class="text-white footer-text">Se un Distribuidor</span>
+                
+                </a>
+                
+              </div>
+                              
+           
+           
+            <div class="col-md-2 p-1"> 
+              <a     href={{url('find_us')}}>
+                <span  class="text-white footer-text">Encuéntranos</span>
+              </a>
                                 
-                </div>
-                <div class="row justify-content-center">
-                    <span id="footer_menu_left" class="text-white">Se un Distribuidor</span>
-                </div>                
             </div>
-            <div class="col" > <img id="footer_logo" src="{{asset('assets/logos/LogosPNG/linkedinLogo.png')}}" alt=""></div>
-            <div class="col"> 
-                <div class="row justify-content-center">
-                    <span id="footer_menu_right" class="text-white">Sobre Nosotros</span>
-                                
-                </div>
-                <div class="row justify-content-center">
-                    <span id="footer_menu_right" class="text-white">Se un Distribuidor</span>
-                </div>       
+              <div class="col-md-3 p-1">
+                <a   href={{url('hr')}}> >
+                  <span  class="text-white footer-text">Bolsa de trabajo</span>
+                </a>
+               
 
-            </div>
+              </div>
+              <div class="col-md-2 p-1">
+                <a href={{url('blogDisp')}}>>
+                  <span  class="text-white footer-text" >Blog</span>
+                </a>
+                
+
+              </div>
+                    
+                   
+
+            
 
         </div>
+        <div class="row justify-content-center my-5 px-5 text-center">
+          <div class="col-md-12 py-3">
+            <a href="https://www.linkedin.com/company/dgl-latam/mycompany/" >
+              <i style="font-size:50px;" class="fa-brands fa-linkedin-in fa-xl text-white " ></i>
+            </a>    
+          </div>
+         
+          
+  
+       
+          
+
+        </div>
+    
+       
+
+      </div>
 
     </div>
 </div>
