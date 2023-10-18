@@ -6,7 +6,7 @@
 	@section('content')
   
 
-          <div class="container-fluid my-3 py-3">   
+        <div class="container-fluid my-3 py-3">   
             <div class="col-lg-12 grid-margin text-center ">
               <h3 id="orange_title">Nuestros Aliados </h3>
                  
@@ -136,8 +136,8 @@
                 </div>
 
               </div>
-              </div>
-              </div> 
+            </div>
+          </div> 
              
        
         <div class="container-fluid div-monitor " id="our_history">   
