@@ -180,14 +180,14 @@
                                 
             </div>
               <div class="col-md-3 p-1">
-                <a   href={{url('hr')}}> >
+                <a   href={{url('hr')}}> 
                   <span  class="text-white footer-text">Bolsa de trabajo</span>
                 </a>
                
 
               </div>
               <div class="col-md-2 p-1">
-                <a href={{url('blogDisp')}}>>
+                <a href={{url('blogDisp')}}>
                   <span  class="text-white footer-text" >Blog</span>
                 </a>
                 

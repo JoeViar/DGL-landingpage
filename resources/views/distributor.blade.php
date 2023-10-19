@@ -61,14 +61,14 @@
        
         <div class="container-fluid p-5 milestones" > 
           <div class="row m-1 p-5  text-center justify-content-center" >
-            <h2 id="orange_title">NUESTROS NUMEROS HABLAN </h2>
+            <h2 id="orange_title">NUESTROS NÚMEROS HABLAN </h2>
           </div>  
           <div class="row m-1 h-100 ">
             <div class="col p-1 h-100 text-center ">
               <div class="row justify-content-center">
                 <div class="circleBase justify-content-center type1 d-flex">
                 <div class="row justify-content-center align-self-center">
-                   <h3 class=" numbrer_our_numbers" id="numbrer_our_numbers_1"></h3>
+                   <h3 class=" numbrer_our_numbers" id="numbrer_our_numbers_1">420</h3>
                 </div>  
 
                 </div>
@@ -93,12 +93,12 @@
               <div class="row justify-content-center">
                 <div class="circleBase type1 justify-content-center d-flex">
                 <div class="row justify-content-center align-self-center">
-                    <h3 class=" numbrer_our_numbers"  id="numbrer_our_numbers_3"></h3>
+                    <h3 class=" numbrer_our_numbers"  id="numbrer_our_numbers_3">16000</h3>
                  </div>
                 </div>
               </div>
               <div class="row justify-content-center">
-                <h3 id="orange_title">Entregas en Puntos de Ventas</h3>
+                <h3 id="orange_title">Entregas en puntos de venta</h3>
               </div>
             </div>
 

@@ -273,15 +273,16 @@ background-size: cover; /* Resize the background image to cover the entire conta
   }
 
 #about_us_our_history  {
-    height: 350px;
+    height: 42vh;
+    min-height: 300px;
     background: #0d3880;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-image:  linear-gradient(90deg, rgba(0,56,110,1) 0%, rgba(12,56,128,1) 0%, rgba(0,56,110,0.5396533613445378) 25%), url('../assets/logos/founders.jpg');
     background-position: right top ;
     
 }
-@media (max-width: 500px){
+@media (max-width: 900px){
   #about_us_our_history  {
     height: 350px;
     background: #0d3880;
@@ -375,7 +376,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
   .div-monitor {
     display: none; /* Initially hidden on mobile */
   }    /* Media query for screens larger than 768px (adjust as needed) */
-  @media (min-width: 769px) {
+  @media (min-width: 800px) {
   .div-mobile {
     display: none; /* Hide on larger screens */
   }
@@ -430,7 +431,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
 .div-monitor {
   display: none; /* Initially hidden on mobile */
 }    /* Media query for screens larger than 768px (adjust as needed) */
-@media (min-width: 769px) {
+@media (min-width: 850px) {
 .div-mobile {
   display: none; /* Hide on larger screens */
 }
@@ -919,7 +920,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
   
     }
   }
-  @media(max-width:500px){
+  @media(max-width:700px){
     .tl-item {
       transform: translate3d(0, 0, 0);
       position: relative;
@@ -983,7 +984,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
         } 
     
       }
-      @media(max-width:500px){
+      @media(max-width:700px){
       &:hover {
         width: 100% !important;
 
@@ -1063,4 +1064,10 @@ background-size: cover; /* Resize the background image to cover the entire conta
     background-position: center center;
     transition: filter 0.5s ease;
     filter: grayscale(100%);
+  }
+  .f-24{
+    font-size: calc( 20px + .2vw);
+  }
+  .f-42{
+    font-size: calc( 42px + .2vw);
   }

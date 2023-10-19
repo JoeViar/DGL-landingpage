@@ -14,14 +14,14 @@
           <div class="row m-1 h-100 ">
             <div class="col p-5 m-2  h-100 text-center justify-content-center">
               <div class="row my-2 p-3 w-75 ">
-                <h2 class="ml-5  text-white"> Nuestra historia</h2>                  
+                <h2 class="ml-5 f-42 text-white"> Nuestra historia</h2>                  
               </div>
-              <div class="row p-3 w-75">
-                <p class="ml-5  text-white text-justify">  Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc. </p>
+              <div class="row  p-3 w-75">
+                <p class="ml-5 f-24 text-white text-justify">  Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc. </p>
               </div>
             </div>
             <div class="col p-1 h-100              text-center">
-              <!-- <img id="our_history_img"src="{{asset('assets/logos/founders.jpg')}}" alt=""> -->
+              {{-- <img id="our_history_img"src="{{asset('assets/logos/founders.jpg')}}" alt="">  --}}
             </div>
           </div>
         </div>
@@ -30,20 +30,9 @@
             <h3 class="text-center"> Fundadores </h3>
           </div>
           <div class="row p-5">
-            <p class=" text-white text-justify">Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc.</p>
+            <p class=" text-white  text-justify">Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc.</p>
           </div>
-          <!-- <div class="row m-1 h-100 ">
-            <div class="col p-5 m-2  h-100 text-center justify-content-center">
-              <div class="row my-2 p-3 w-75 ">
-                <h2 class="ml-5  text-white"> Nuestra historia</h2>                  
-              </div>
-              <div class="row p-3 w-75">
-                <p class="ml-5  text-white text-justify">  Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc.</p>
-              </div>
-            </div>
-            <div class="col p-1 h-100              text-center">
-            </div>
-          </div> -->
+          
         </div>
         
 
