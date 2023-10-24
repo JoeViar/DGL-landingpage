@@ -1,4 +1,4 @@
-#nav_logo{
+  #nav_logo{
     height: auto;
     width: 40%;
     
@@ -171,7 +171,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
 }
 #channels{
     width: auto;
-    height: 500px;
+    height: 60vh;
 }
 
 #job-offers{
@@ -220,9 +220,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
     margin-top: 60%;
     margin-right: 50%;
 }
-#blog_entry_disp{
-    display: none;
-}
+
 #footer_menu_left{
  
 }
@@ -244,19 +242,49 @@ background-size: cover; /* Resize the background image to cover the entire conta
     width: 100%;
 }
 #blog_img{
-    width: 70%;
+    width: 100%;
+    max-width: 100%;
     height: auto;
-    display:block;
+    max-height: 60%;
+    padding-right: 10%;
+    padding-left: 10%;
     margin:0 auto;    
+    border-radius: 30px;
 }
 #blog_entry{
     border: solid;
     border-radius: 15px;
+  
+    width: auto;
     
 
 }
+#identity{
+  border: solid;
+  border-color: #f18562 ;
+  border-radius: 15px;
+  background-color: #f18562;
+  height: 70vh;
+  width: auto;
+  position: relative;
+  
+}
+@media(max-width: 900px){
+  #identity{
+    border: solid;
+    border-color: #f18562 ;
+    border-radius: 15px;
+    background-color: #f18562;
+    height: 80vh;
+    width: auto;
+    position: relative;
+    
+  }
+}
+
 #blog_enty_row{
     padding:5%;
+    
 }
 #footer{
     background-color: #ff7b43;
@@ -273,13 +301,13 @@ background-size: cover; /* Resize the background image to cover the entire conta
   }
 
 #about_us_our_history  {
-    height: 42vh;
+
     min-height: 300px;
     background: #0d3880;
     background-size: 60%;
     background-repeat: no-repeat;
     background-image:  linear-gradient(90deg, rgba(0,56,110,1) 0%, rgba(12,56,128,1) 0%, rgba(0,56,110,0.5396533613445378) 25%), url('../assets/logos/founders.jpg');
-    background-position: right top ;
+    background-position: 100% 5% ;
     
 }
 @media (max-width: 900px){
@@ -325,10 +353,10 @@ background-size: cover; /* Resize the background image to cover the entire conta
 #disteributor_infrastructure{
     background-image:  linear-gradient( rgba(152,162,165,.7) , rgba(152,162,165,.7) ), url('../assets/img/background-corporative.png');
 
-    background-size: cover;
+   background-size: cover;
     background-repeat: no-repeat;
 
-    background-position: 20%, 20%;
+    background-position: 50% 20%;
    
 }
 #icon_infrastructure{
@@ -356,7 +384,8 @@ background-size: cover; /* Resize the background image to cover the entire conta
    
 }
 #title_row{
-    font-size: 500%;
+    font-size: 9vw;
+    color: #535457;
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -984,7 +1013,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
         } 
     
       }
-      @media(max-width:700px){
+      @media(max-width:900px){
       &:hover {
         width: 100% !important;
 
@@ -1071,3 +1100,56 @@ background-size: cover; /* Resize the background image to cover the entire conta
   .f-42{
     font-size: calc( 42px + .2vw);
   }
+
+  .f-32{
+    font-size: calc( 32px + .2vw);
+  }
+  .job-entry-img{
+    width: 100%;
+    height: auto;
+  }
+  .blog-text{
+    padding: 10%;
+    
+   
+
+  }
+  .iden-text{
+    padding: 10%;
+    position: absolute;
+    bottom: 10vh;
+  }
+  
+  .logo_iden{
+    width: auto;
+    height: 15vh;
+  }
+  
+  .title_iden{
+    font-size: calc( 50px + .2vw);
+  }
+  .parragraph_iden{
+    font-size: calc( 17px + .2vw);
+
+  }
+  .icon_row{
+
+    
+    max-height: 60vh;
+  }
+  .img-logo{
+    height: auto;
+    width: 50%;
+  }
+  .ident-column{
+    display:inline-block;
+    border-radius: 10rem;
+   
+
+  }
+  .col-mv{
+    border-radius: 2rem; 
+    background-color: #f18562;
+    box-shadow: 10px 5px 5px #c0c0c0;
+
+  } 

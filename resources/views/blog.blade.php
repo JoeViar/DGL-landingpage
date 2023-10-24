@@ -25,12 +25,12 @@ items.forEach((el) => {
       <div class="col-md-6">
           <div class="container P-4">
             <div class="row py-1">
-              <img src="{{asset('assets/img/header_background.jpeg')}}" alt="" style="heigth: 50px;" class="img-fluid">
+              <img src="{{asset('assets/img/blog_cover.png')}}" alt="" style="heigth: 50px;" class="img-fluid">
 
             </div>
             <div class="row ">
               <h5>
-                testaaa
+               
               </h5>
 
             </div>

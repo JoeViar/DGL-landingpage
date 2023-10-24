@@ -13,11 +13,13 @@
         <div class="container-fluid div-monitor " id="about_us_our_history">   
           <div class="row m-1 h-100 ">
             <div class="col p-5 m-2  h-100 text-center justify-content-center">
-              <div class="row my-2 p-3 w-75 ">
+              <div class="row my-2 p-3 ">
                 <h2 class="ml-5 f-42 text-white"> Nuestra historia</h2>                  
               </div>
-              <div class="row  p-3 w-75">
-                <p class="ml-5 f-24 text-white text-justify">  Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc. </p>
+              <div class="row  p-3 ">
+                <div class="col-8 p-4">
+                  <p class=" f-24 text-white text-justify">  Somos una empresa de distribución y desarrollo de canales de venta que representa a fabricantes y desarrolladores mundiales de tecnología como gadgets, teléfonos móviles, etc. </p>
+                </div>
               </div>
             </div>
             <div class="col p-1 h-100              text-center">
@@ -250,6 +252,65 @@
 
    
         </div>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div  class="col-xl-5 ident-column p-5 m-4 text-white  col-mv">
+              <div class="row">
+                <div  class=" col p-3 text-center">
+                  <img class="img-logo" src={{asset('assets/img/Mision500.png')}} alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div  class=" col p-1 text-center">
+                 <h4 class="title_iden">Misión</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div  class=" col p-5 text-center">
+                 <p class="parragraph_iden">
+                  Ofrecemos productos tecnológicos de 
+                  vanguardia que faciliten la vida de las 
+                  personas. Nuestras estrategias 
+                  comerciales permiten cumplir las 
+                  expectativas de nuestros clientes y 
+                  consumidores
+                </p>
+                </div>
+              </div>
+
+              
+            </div>
+            <div  class="col-xl-5 col-mv p-5 m-4 col-mv text-white">
+              <div class="row">
+                <div  class=" col p-3 text-center">
+                  <img class="img-logo" src={{asset('assets/img/Vision500.png')}} alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div  class=" col p-1 text-center">
+                 <h4 class="title_iden ">Visión</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div  class=" col p-5 text-center">
+                  <p class="parragraph_iden">
+                    Ser la solución #1 en abastecimiento de 
+                    productos tecnológicos en México, 
+                    enfocándonos en ofrecer la mejor 
+                    calidad y precio a nuestros clientes
+                  </p>
+                </div>
+              </div>
+
+              
+            </div>
+
+
+          </div>
+
+        </div>
+        
 
        
 

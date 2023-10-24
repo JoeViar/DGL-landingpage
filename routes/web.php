@@ -24,7 +24,8 @@ Route::get('/distributor','distributor')->name('distributor');
 Route::get('/find_us','find_us')->name('find_us');
 Route::get('/hr','hr')->name('hr');
 Route::get('/blogDisp','blog')->name('blogDisp');
-
+Route::get('/hr/1','jobEntry')->name('jobEntry');
+Route::get('/blog/1','blogEntry')->name('blogEntry');
 });
     
 

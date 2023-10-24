@@ -142,7 +142,7 @@
        
         <div class="container-fluid div-monitor " id="our_history">   
          <a href="{{url('about_us')}}">
-          <div class="row m-1  ">
+          <div class="row m-1 p-4 ">
             <div  class="col p-1  d-flex justify-content-end align-items-center ">
               <h2 id="our_history_title" > Nuestra historia</h2>
             </div>
@@ -166,7 +166,7 @@
          </div>
 
           <div class="container-fluid d-flex justify-content-center p-5">
-            <img id="channels" src="{{asset('assets/logos/channel.png')}}" alt="">
+            <img id="channels" src="{{asset('assets/logos/channel.gif')}}" alt="">
           </div>
 
        
@@ -215,44 +215,31 @@
            
            <div class="row justify-content-center p-2">
           
-            <div class="col  text-center">
+            <div class="col-md-4 text-center">
                 <div class="row justify-content-center" id="blog_enty_row">
                   <div id="blog_entry" >
-                    <div class="row text-center">
-                      <img id="blog_img" src={{asset('assets/img/standby.png')}} alt="">
+                    {{-- <a href={{route('blogEntry')}}> --}}
+                    <div class="row text-center p-2 ">
+                      <img id="blog_img" src={{asset('assets/img/blog_cover.png')}} alt="">
                     </div>
-                    <div class="row justify-content-center">
-                      <h4> Titulo </h4>
-                      
-                    </div>
-                    <div class="row justify-content-center">
-                      <h5 class="m-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem exercitationem maxime dicta perspiciatis impedit eaque culpa?   </h5>
-                      
-                    </div>
-                    
-
-                  </div>
-                </div>
-          </div>
-            <div id="blog_entry_disp" class="col  text-center">
-              <div class="row justify-content-center" id="blog_enty_row">
-                  <div id="blog_entry" >
-                    <div class="row ">
-                        <img id="blog_img" src="{{asset('assets/img/standby.png')}}" alt="">
-                    </div>
-                    <div class="row justify-content-center">
-                      <h4> Titulo </h4>
-                      
-                    </div>
-                    <div class="row justify-content-center">
-                      <h5 class="m-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem exercitationem maxime dicta perspiciatis impedit eaque culpa?   </h5>
-                      
+                    <div class="blog-text">
+                      <div class="row justify-content-center">
+                        <h4> Un recorrido por nuestra celebración del 15 de Septiembre </h4>
+                        
+                      </div>
+                      <div class="row justify-content-center">
+                        <p class=""> Tuvimos la fortuna de conmemorarlo con una explosión de orgullo y cultura mexicana. 💚⚪❤️ Pudimos expresar a todo pulmón nuestro amor por nuestra tierra y nuestras tradiciones 🎉.   </p>
+                        {{-- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magni, corporis incidunt ex vero repellendus, velit consequuntur corrupti quia maiores voluptatem molestias tempore culpa eos impedit sint laborum, numquam totam.</span> --}}
+                      </div>
                     </div>
                    
+                    {{-- </a> --}}
                   </div>
                   
                 </div>
-            </div>
+          
+          </div>
+           
           </div>
           
           <div class="row justify-content-center p-5">

@@ -29,11 +29,14 @@ class NavigationController extends Controller
     public function blog(){
         return view('blog');
     }
-    public function blogEntry($id){
+    public function blogEntry(){
        
-        dd($id);
+        return view('blog.entry');
         
         
+    }
+    public function jobEntry(){
+        return view ('hr.entry');
     }
 
 
