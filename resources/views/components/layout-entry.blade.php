@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-    
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <script src="https://kit.fontawesome.com/a288537ab3.js" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@
   $title="";
   $dir=Request::route()->getName()
 
- 
-  
-   
+
+
+
   @endphp
 
     <nav class="navbar navbar-light navbar-expand-md m-0  bg-light" style="background-color: rgba(0,0,0,0.3);">
@@ -41,7 +41,7 @@
        <a id="nav_logo1" href="{{url('/')}}">
               <img id="nav_logo" src="{{asset('img/assets/logo-big.png')}}" alt="">
         </a>
-     
+
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
@@ -59,7 +59,7 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
 
                   @endif
-                  
+
                   @if($dir=='find_us')
                   <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('find_us')}}">Encuéntranos</a></li>
 
@@ -82,92 +82,92 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blogDisp')}}">Blog</a></li>
 
                   @endif
-                  
-                    
-                    
-                    
+
+
+
+
 
 
                 </ul>
                 <ul class="nav navbar-nav ml-auto">
-                   
+
                     <!-- <img id="user_logo"  src="{{asset('assets/img/user_icon.png')}}" alt=""></li> -->
-                    
+
                 </ul>
             </div>
         </div>
     </nav>
-  
 
-   
+
+
         @yield('content')
 
-   
-   
-        
-        
-   
+
+
+
+
+
 
 
     <div class="container-fluid p-4" id=footer>
 
         <div class="row justify-content-center mx-5 px-5 text-center">
-            <div class="col-md-2 p-1"> 
+            <div class="col-md-2 p-1">
                 <a href={{url('about_us')}}>
-                  <span  class="text-white footer-text">Sobre Nosotros</span>   
+                  <span  class="text-white footer-text">Sobre Nosotros</span>
                 </a>
               </div>
               <div class="col-md-3 p-1">
                 <a href={{url('distributor')}}>
                   <span  class="text-white footer-text">Se un Distribuidor</span>
-                
+
                 </a>
-                
+
               </div>
-                              
-           
-           
-            <div class="col-md-2 p-1"> 
+
+
+
+            <div class="col-md-2 p-1">
               <a     href={{url('find_us')}}>
                 <span  class="text-white footer-text">Encuéntranos</span>
               </a>
-                                
+
             </div>
               <div class="col-md-3 p-1">
-                <a   href={{url('hr')}}> 
+                <a   href={{url('hr')}}>
                   <span  class="text-white footer-text">Bolsa de trabajo</span>
                 </a>
-               
+
 
               </div>
               <div class="col-md-2 p-1">
                 <a href={{url('blogDisp')}}>
                   <span  class="text-white footer-text" >Blog</span>
                 </a>
-                
+
 
               </div>
-                    
-                   
 
-            
+
+
+
 
         </div>
         <div class="row justify-content-center my-5 px-5 text-center">
           <div class="col-md-12 py-3">
             <a href="https://www.linkedin.com/company/dgl-latam/mycompany/" >
               <i style="font-size:50px;" class="fa-brands fa-linkedin-in fa-xl text-white " ></i>
-            </a>    
+            </a>
           </div>
-         
-          
-  
-       
-          
+
+
+
+
+
 
         </div>
-    
-       
+
+
 
       </div>
 
@@ -179,8 +179,8 @@
 
 <script type="text/javascript">
 
-  
-    
+
+
 
 
 const colorChangeDivs = document.querySelectorAll(".timeline-body");
@@ -203,14 +203,14 @@ window.addEventListener("scroll", () => {
 
 
         }
-        
+
     });
 });
 
 
 
 
-   
+
 
 var map;
 let marker;

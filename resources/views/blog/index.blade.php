@@ -16,16 +16,22 @@
                     <th>Contact</th>
                     <th>Country</th>
                   </tr>
+                  @forelse($blogs as $blog=>$item)
                   <tr>
-                    <td>Alfreds Futterkiste</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
+                    <td>{{$item->title}} </td>
+                    <td>{{$item->description}}</td>
+                    @forelse($users as $user => $)
+
+                    @empty
+                    @endforelse
+                    <td>{{$users['0']->name}}</td>
+                    <td>{{$item->author }}</td>
                   </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                  </tr>
+                
+                  @empty
+                  Todavía no    
+           
+                  @endforelse
                 </table>
 
 

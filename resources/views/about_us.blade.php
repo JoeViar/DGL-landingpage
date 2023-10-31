@@ -6,10 +6,53 @@
 	@section('content')
 
 
-    
+  <div class="container-fluid py-4  " id="header_img2" >
+    <div class="container-fluid" >
+     <div class="row ">
+      <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
+        <h1 class="" id="header_title" >Sobre nosotros  </h1>
+
+        {{-- @if($dir=='index')
+          <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
+
+        @else
+          @if($dir=='about_us')
+            <h1 class="" id="header_title" >Sobre Nosotros  </h1>
+          @else
+            @if($dir=='distributor')
+              <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+            @else
+              @if($dir=='find_us')
+                <h1 class="" id="header_title" >Encuéntranos </h1>
+              @else
+                @if($dir=='hr')
+                  <h1 class="" id="header_title" >Bolsa de trabajo </h1>
+                @else
+                  @if($dir=='blogDisp')
+                    <h1 class="" id="header_title" >Blog </h1>
+                  @endif
+                @endif
+              @endif
+
+
+            @endif
+          @endif
+
+        @endif --}}
+     </div>
+   </div>
+      <div class="row my-5 p-y5 text-center">
+        <div class="col-md-12 mt-5 center-block text-center justify-content-center">
+          <a href="#title">
+          <button  id="header_button" type="button"  class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+        </a>
+       </div>
+      </div>
+   </div> 
+</div>
            
              
-       
+       <section id="title">
         <div class="container-fluid div-monitor " id="about_us_our_history">   
           <div class="row m-1 h-100 ">
             <div class="col p-5 m-2  h-100 text-center justify-content-center">
@@ -36,8 +79,8 @@
           </div>
           
         </div>
-        
-
+    
+      </section> 
         <div class="container-fluid p-5 mb-5 justify-content-center text-center ">
           <h3 id="orange_title">INNOVANDO UNA GRAN TRAYECTORIA </h3>
           <div class="div-monitor">
@@ -252,7 +295,7 @@
 
    
         </div>
-
+   
         <div class="container">
           <div class="row justify-content-center">
             <div  class="col-xl-5 ident-column p-5 m-4 text-white  col-mv">

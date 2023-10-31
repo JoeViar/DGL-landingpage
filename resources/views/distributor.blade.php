@@ -4,7 +4,51 @@
 	@endsection
 	
 	@section('content')
-  
+    <div class="container-fluid py-4  " id="header_img3" >
+    <div class="container-fluid" >
+     <div class="row ">
+      <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
+        <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+
+        {{-- @if($dir=='index')
+          <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
+
+        @else
+          @if($dir=='about_us')
+            <h1 class="" id="header_title" >Sobre Nosotros  </h1>
+          @else
+            @if($dir=='distributor')
+              <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+            @else
+              @if($dir=='find_us')
+                <h1 class="" id="header_title" >Encuéntranos </h1>
+              @else
+                @if($dir=='hr')
+                  <h1 class="" id="header_title" >Bolsa de trabajo </h1>
+                @else
+                  @if($dir=='blogDisp')
+                    <h1 class="" id="header_title" >Blog </h1>
+                  @endif
+                @endif
+              @endif
+
+
+            @endif
+          @endif
+
+        @endif --}}
+     </div>
+   </div>
+      <div class="row my-5 p-y5 text-center">
+        <div class="col-md-12 mt-5 center-block text-center justify-content-center">
+          <a href="#title">
+            <button  id="header_button" type="button"  class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+          </a>
+        </div>
+      </div>
+   </div> 
+</div>
+      <section id="title">
 
         <div class="container-fluid p-4  text-white  " id="distributor_discover">   
           <div class="row justify-content-center ">
@@ -57,6 +101,7 @@
 
          
         </div> 
+      </section>
              
        
         <div class="container-fluid p-5 milestones" > 

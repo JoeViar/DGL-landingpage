@@ -15,7 +15,14 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('blog.index');
+        $blogs=Blog::all( );
+        $users=User::all();
+
+        // dd($users);
+
+        // return view('blog.index',compact(['blogs','users']));
+        return view('blog.index',compact(['blogs','users']));
+
     }
 
     /**

@@ -38,6 +38,20 @@ class NavigationController extends Controller
     public function jobEntry(){
         return view ('hr.entry');
     }
+    public function headerAbout(){
+
+        return redirect(route('about_us').'/#timeline');
+
+    }
+    public function distrib( ){
+
+        return redirect(route('distributor').'/#title');
+    }
+
+    public function find( ){
+
+        return redirect(route('find_us').'/#title');
+    }
 
 
 }

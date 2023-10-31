@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-    
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <script src="https://kit.fontawesome.com/a288537ab3.js" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@
   $title="";
   $dir=Request::route()->getName()
 
- 
-  
-   
+
+
+
   @endphp
 
     <nav class="navbar navbar-light navbar-expand-md m-0  bg-light" style="background-color: rgba(0,0,0,0.3);">
@@ -41,7 +41,7 @@
        <a id="nav_logo1" href="{{url('/')}}">
               <img id="nav_logo" src="{{asset('img/assets/logo-big.png')}}" alt="">
         </a>
-     
+
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
@@ -59,7 +59,7 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
 
                   @endif
-                  
+
                   @if($dir=='find_us')
                   <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('find_us')}}">Encuéntranos</a></li>
 
@@ -82,138 +82,92 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blogDisp')}}">Blog</a></li>
 
                   @endif
-                  
-                    
-                    
-                    
+
+
+
+
 
 
                 </ul>
                 <ul class="nav navbar-nav ml-auto">
-                   
+
                     <!-- <img id="user_logo"  src="{{asset('assets/img/user_icon.png')}}" alt=""></li> -->
-                    
+
                 </ul>
             </div>
         </div>
     </nav>
-  
-
-    <div class="container-fluid py-4  " id="header_img" >
-    <div class="container-fluid" >
-      <div class="row ">
-        <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
-
-         
-          @if($dir=='index')
-            <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
-
-          @else
-            @if($dir=='about_us')
-              <h1 class="" id="header_title" >Sobre Nosotros  </h1>
-            @else
-              @if($dir=='distributor')
-                <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
-              @else
-                @if($dir=='find_us')
-                  <h1 class="" id="header_title" >Encuéntranos </h1>
-                @else
-                  @if($dir=='hr')
-                    <h1 class="" id="header_title" >Bolsa de trabajo </h1>
-                  @else
-                    @if($dir=='blogDisp')
-                      <h1 class="" id="header_title" >Blog </h1>
-                    @endif
-                  @endif
-                @endif
 
 
-              @endif
-            @endif
-
-          @endif
-        </div>
-      </div>
-       <div class="row my-5 p-y5 text-center">
-         <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-          <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
-        </div>
-       </div>
-    </div>
-
-
-
-
-    </div>
 
         @yield('content')
 
-   
-   
-        
-        
-   
+
+
+
+
+
 
 
     <div class="container-fluid p-4" id=footer>
 
         <div class="row justify-content-center mx-5 px-5 text-center">
-            <div class="col-md-2 p-1"> 
+            <div class="col-md-2 p-1">
                 <a href={{url('about_us')}}>
-                  <span  class="text-white footer-text">Sobre Nosotros</span>   
+                  <span  class="text-white footer-text">Sobre Nosotros</span>
                 </a>
               </div>
               <div class="col-md-3 p-1">
                 <a href={{url('distributor')}}>
                   <span  class="text-white footer-text">Se un Distribuidor</span>
-                
+
                 </a>
-                
+
               </div>
-                              
-           
-           
-            <div class="col-md-2 p-1"> 
+
+
+
+            <div class="col-md-2 p-1">
               <a     href={{url('find_us')}}>
                 <span  class="text-white footer-text">Encuéntranos</span>
               </a>
-                                
+
             </div>
               <div class="col-md-3 p-1">
-                <a   href={{url('hr')}}> 
+                <a   href={{url('hr')}}>
                   <span  class="text-white footer-text">Bolsa de trabajo</span>
                 </a>
-               
+
 
               </div>
               <div class="col-md-2 p-1">
                 <a href={{url('blogDisp')}}>
                   <span  class="text-white footer-text" >Blog</span>
                 </a>
-                
+
 
               </div>
-                    
-                   
 
-            
+
+
+
 
         </div>
         <div class="row justify-content-center my-5 px-5 text-center">
           <div class="col-md-12 py-3">
             <a href="https://www.linkedin.com/company/dgl-latam/mycompany/" >
               <i style="font-size:50px;" class="fa-brands fa-linkedin-in fa-xl text-white " ></i>
-            </a>    
+            </a>
           </div>
-         
-          
-  
-       
-          
+
+
+
+
+
 
         </div>
-    
-       
+
+
 
       </div>
 
@@ -225,8 +179,8 @@
 
 <script type="text/javascript">
 
-  
-    
+
+
 
 
 const colorChangeDivs = document.querySelectorAll(".timeline-body");
@@ -249,14 +203,14 @@ window.addEventListener("scroll", () => {
 
 
         }
-        
+
     });
 });
 
 
 
 
-   
+
 
 var map;
 let marker;

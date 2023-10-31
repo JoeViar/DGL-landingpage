@@ -25,7 +25,10 @@ Route::get('/find_us','find_us')->name('find_us');
 Route::get('/hr','hr')->name('hr');
 Route::get('/blogDisp','blog')->name('blogDisp');
 Route::get('/hr/1','jobEntry')->name('jobEntry');
-Route::get('/blog/1','blogEntry')->name('blogEntry');
+Route::get('/about','headerAbout')->name('headerAbout');
+Route::get('/distrib','distrib')->name('distrib');
+Route::get('/find','find')->name('find');
+
 });
     
 
@@ -54,4 +57,5 @@ Route::middleware([
     })->name('dashboard');
     
     Route::resource('blog', BlogController::class);
+   
 });
