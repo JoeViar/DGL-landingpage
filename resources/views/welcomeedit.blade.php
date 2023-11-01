@@ -6,7 +6,6 @@
 	@section('content')
   <div class="owl-carousel-header ">
     <div class="item">
-        {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
 
          <div class="container-fluid py-4  " id="header_img" >
@@ -15,89 +14,20 @@
                <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
 
                 <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
-                 {{-- @if($dir=='index')
-                   
-
-                 @else
-                   @if($dir=='about_us')
-                     <h1 class="" id="header_title" >Sobre Nosotros  </h1>
-                   @else
-                     @if($dir=='distributor')
-                       <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
-                     @else
-                       @if($dir=='find_us')
-                         <h1 class="" id="header_title" >Encuéntranos </h1>
-                       @else
-                         @if($dir=='hr')
-                           <h1 class="" id="header_title" >Bolsa de trabajo </h1>
-                         @else
-                           @if($dir=='blogDisp')
-                             <h1 class="" id="header_title" >Blog </h1>
-                           @endif
-                         @endif
-                       @endif
-
-
-                     @endif
-                   @endif
-
-                 @endif --}}
+     
               </div>
             </div>
          <div class="row my-5 p-y5 text-center">
            <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-            <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+            <a href="{{route('about_us')}}">
+              <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+            </a>
           </div>
          </div>
       </div> 
-    </div>
-    </div>
-    <div class="item">
-      {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
-
-        <div class="container-fluid py-4  " id="header_img" >
-          <div class="container-fluid" >
-           <div class="row ">
-            <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
-
-              <h1 class="mb-5 text-center"id="header_title" > Sobre nosotros </h1>
-              {{-- @if($dir=='index')
-                <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
-
-              @else
-                @if($dir=='about_us')
-                  <h1 class="" id="header_title" >Sobre Nosotros  </h1>
-                @else
-                  @if($dir=='distributor')
-                    <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
-                  @else
-                    @if($dir=='find_us')
-                      <h1 class="" id="header_title" >Encuéntranos </h1>
-                    @else
-                      @if($dir=='hr')
-                        <h1 class="" id="header_title" >Bolsa de trabajo </h1>
-                      @else
-                        @if($dir=='blogDisp')
-                          <h1 class="" id="header_title" >Blog </h1>
-                        @endif
-                      @endif
-                    @endif
-
-
-                  @endif
-                @endif
-
-              @endif --}}
-           </div>
-         </div>
-            <div class="row my-5 p-y5 text-center">
-              <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-               <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
-             </div>
-            </div>
-         </div> 
       </div>
     </div>
+   
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
@@ -138,7 +68,9 @@
          </div>
             <div class="row my-5 p-y5 text-center">
               <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-               <button  id="header_button" type="button" onclick="window.location='{{ route("distrib")}}'" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+                <a href="{{route('distributor')}}">
+                  <button  id="header_button" type="button"  class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+                </a>
              </div>
             </div>
          </div> 
@@ -230,7 +162,9 @@
          </div>
             <div class="row my-5 p-y5 text-center">
               <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-               <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+                <a href="{{route('hr')}}">
+                  <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>                
+                </a>
              </div>
             </div>
          </div> 
@@ -276,7 +210,9 @@
          </div>
             <div class="row my-5 p-y5 text-center">
               <div class="col-md-12 mt-5 center-block text-center justify-content-center">
-               <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+                <a href="{{route('blogDisp')}}">
+                  <button  id="header_button" type="button" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>                
+                </a>
              </div>
             </div>
          </div> 
