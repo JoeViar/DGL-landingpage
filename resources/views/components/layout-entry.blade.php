@@ -47,9 +47,9 @@
                 id="navcol-1">
                 <ul class="nav navbar-nav text-right text-white ml-auto">
                   @if($dir=='about_us')
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('about_us')}}">Sobre nosostros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('about_us')}}">Sobre nosotros</a></li>
                   @else
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('about_us')}}">Sobre nosostros</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('about_us')}}">Sobre nosotros</a></li>
 
                   @endif
                   @if($dir=='distributor')

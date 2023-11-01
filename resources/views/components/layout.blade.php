@@ -15,7 +15,7 @@
   <div class="container-fluid colorBlue">
     <div class="row justify-content-end  my-1 ">
       <div class="col-5 p-1 mx-2 align-items-center text-right">
-        <h3 style="font-size: calc(19px + .2vw);"  class="text-white">Siguenos en redes sociales </h3>
+        <h3 style="font-size: calc(19px + .1vw);"  class="text-white">SÍGUENOS EN REDES SOCIALES </h3>
       </div>
       <div class="col-2  p-1">
         <a href="https://www.linkedin.com/company/dgl-latam/mycompany/" >
@@ -47,9 +47,9 @@
                 id="navcol-1">
                 <ul class="nav navbar-nav text-right text-white ml-auto">
                   @if($dir=='about_us')
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('about_us')}}">Sobre nosostros</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('about_us')}}">Sobre nosotros</a></li>
                   @else
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('about_us')}}">Sobre nosostros</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('about_us')}}">Sobre nosotros</a></li>
 
                   @endif
                   @if($dir=='distributor')
@@ -119,7 +119,7 @@
               </div>
               <div class="col-md-3 p-1">
                 <a href={{url('distributor')}}>
-                  <span  class="text-white footer-text">Se un Distribuidor</span>
+                  <span  class="text-white footer-text">Se un Distríbuidor</span>
 
                 </a>
 

@@ -8,7 +8,7 @@
     <div class="container-fluid" >
      <div class="row ">
       <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
-        <h1 class="" id="header_title" >Encuentranos </h1>
+        <h1 class="" id="header_title" >Encuéntranos </h1>
 
         {{-- @if($dir=='index')
           <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
