@@ -1,15 +1,14 @@
 <x-layout>
-@section('scripts')
-		<!-- Some JS and styles -->
-	@endsection
+
 	
 	@section('content')
   <div class="owl-carousel-header ">
     <div class="item">
 
 
-         <div class="container-fluid py-4  " id="header_img" >
-           <div class="container-fluid" >
+         <div class="container-fluid py-4  " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Home.png');
+         " id="header_img" >
+           <div x class="container-fluid" >
               <div class="row ">
                <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
 
@@ -31,7 +30,7 @@
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
-        <div class="container-fluid py-4  " id="header_img" >
+        <div class="container-fluid py-4   " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Distribuidor.png');" id="header_img" >
           <div class="container-fluid" >
            <div class="row ">
             <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
@@ -79,7 +78,7 @@
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
-        <div class="container-fluid py-4  " id="header_img" >
+        <div class="container-fluid py-4  "style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Encuentranos.png');" id="header_img" >
           <div class="container-fluid" >
            <div class="row ">
             <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
@@ -125,7 +124,7 @@
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
-        <div class="container-fluid py-4  " id="header_img" >
+        <div class="container-fluid py-4   " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Bolsa-De-trabajo.png');" id="header_img" >
           <div class="container-fluid" >
            <div class="row ">
             <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
@@ -173,7 +172,7 @@
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
-        <div class="container-fluid py-4  " id="header_img" >
+        <div class="container-fluid py-4  " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/blog.png');" id="header_img" >
           <div class="container-fluid" >
            <div class="row ">
             <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
@@ -233,57 +232,57 @@
                  
               <div class="owl-carousel my-4">
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazfit.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/batta-hermanos.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/apple.png')}}" alt="image"/>
                 </div>
 
                 <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/bodesa.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/DELL.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/calzapato.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/epson.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/chapur.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/Honor.png')}}" alt="image"/>
                 </div>
 
                  <div class="item">
-                    <img  id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/chedraui.png')}}" alt="image"/>
+                    <img  id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/HP.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/claro.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/hurley.png')}}" alt="image"/>
                 </div>
 
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/ct.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/LENOVO.png')}}" alt="image"/>
                 </div>
 
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/cva.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/nintendo.png')}}" alt="image"/>
                 </div>
 
                  <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/cyberpuerta.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/OMEN.png')}}" alt="image"/>
                 </div>
                 <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/delta.png')}}" alt="image"/>
+                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/samsung.png')}}" alt="image"/>
                 </div>
 
                  <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/elektra.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/TCL.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/ekectropbike.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/XBOX.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/elizondo.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/xiaomi.png')}}" alt="image"/>
                 </div>
                  <div class="item">
-                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/exel.png')}}" alt="image"/>
+                    <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/ZTE.png')}}" alt="image"/>
                 </div>
-                 <div class="item">
+                 {{-- <div class="item">
                     <img   id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/huawei.png')}}" alt="image"/>
                 </div>
                 <div class="item">
@@ -354,7 +353,7 @@
 
                 <div class="item">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/walmart.png')}}" alt="image"/>
-                </div>
+                </div> --}}
 
               </div>
             </div>
@@ -386,8 +385,49 @@
            </a>
          </div>
 
-          <div class="container-fluid d-flex justify-content-center p-5">
-            <img id="channels" src="{{asset('assets/logos/channel.gif')}}" alt="">
+          <div class="container-fluid justify-content-center p-5">
+            {{-- <img id="channels" src="{{asset('assets/logos/channel.gif')}}" alt=""> --}}
+            <div>
+
+            </div>
+
+            <div class="filter">
+              <h1>Filtering</h1>
+              {{-- <button data-name='*' class="btn btn-info active">All</button> --}}
+              <button data-name=".fruit" class="btn btn-primary">Etail</button>
+              <button data-name=".flower" class="btn btn-danger">Marketplace</button>
+              <button data-name=".bird" class="btn btn-success">B2B</button>
+              <button data-name=".bird" class="btn btn-success">Retail Regional</button>
+              <button data-name=".bird" class="btn btn-success">Retail</button>
+
+
+            </div>
+            {{-- <div class="sort">
+              <h1>sorting</h1>
+              <button data-name='name' class="btn btn-primary">name</button>
+              <button data-name='original-order' class="btn btn-info active">original</button>
+              <button data-name='random' class="btn btn-dark">random</button>
+            </div> --}}
+            <div class="grid">
+              <div class="grid-item flower">
+                <img src="{{asset('assets/logos/LogosPNG/LogosSize/walmart.png')}}" class="filter-img p-1" alt="">
+              </div>
+              <div class="grid-item bird">Parrot</div>
+              <div class="grid-item fruit">Banana</div>
+              <div class="grid-item flower">Tulip</div>
+              <div class="grid-item bird">Sparrow</div>
+              <div class="grid-item flower">Marigold</div>
+              <div class="grid-item fruit">Orange</div>
+              <div class="grid-item bird">Owl</div>
+              <div class="grid-item bird">
+                <img src="#" alt="">
+              </div>
+
+            </div>
+           
+         
+            
+            
           </div>
 
        
@@ -469,7 +509,44 @@
 
 
          
-
+          @section('scripts')
+          
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+          <script src="js/isotope.pkgd.min.js"></script>
+          <script>
+            var $grid = $('.grid').isotope({
+              itemSelector: '.grid-item',
+              layoutMode: 'fitRows',
+              getSortData: {
+                name: function (element) {
+                  return $(element).text();
+                }
+               
+              }
+            });
+            $grid.isotope({
+                  filter: ".bird"
+                });
+            $('.filter button').on("click", function () {
+              var value = $(this).attr('data-name');
+                $grid.isotope({
+                  filter: value
+                });
+              $('.filter button').removeClass('active');
+              $(this).addClass('active');
+            })
+            $('.sort button').on("click", function () {
+              var value = $(this).attr('data-name');
+              $grid.isotope({
+                sortBy: value
+              });
+              $('.sort button').removeClass('active');
+              $(this).addClass('active');
+            })
+          </script>
+          @endsection
          </div>
 
          

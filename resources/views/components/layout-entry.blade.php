@@ -181,8 +181,6 @@
 
 
 
-
-
 const colorChangeDivs = document.querySelectorAll(".timeline-body");
 
 window.addEventListener("scroll", () => {

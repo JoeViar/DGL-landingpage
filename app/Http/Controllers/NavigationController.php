@@ -53,5 +53,10 @@ class NavigationController extends Controller
         return redirect(route('find_us').'/#title');
     }
 
+    public function brands(){
+
+        return view('brands');
+    }
+
 
 }

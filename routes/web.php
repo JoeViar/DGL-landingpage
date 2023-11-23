@@ -28,6 +28,7 @@ Route::get('/hr/1','jobEntry')->name('jobEntry');
 Route::get('/about','headerAbout')->name('headerAbout');
 Route::get('/distrib','distrib')->name('distrib');
 Route::get('/find','find')->name('find');
+Route::get('/brands','brands')->name('brands');
 
 });
     
