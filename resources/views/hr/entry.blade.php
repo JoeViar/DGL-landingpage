@@ -13,7 +13,7 @@
        <div id="footer" class="container-fluid">
             <div class="row">
                 <div  class="col-md-12 text-center text-white">
-                    <h2>Unete a nosotros en DGL Latam</h2>
+                    <h2>Sé parte de nuestro equipo </h2>
                 
                 
 
@@ -25,20 +25,22 @@
         <div class="container my-3">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Incorporate al equipo de DGL</h2>
+                    <h2> Incorporate al equipo de DGL  </h2>
                 </div>
 
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, voluptatum architecto. Odio ea at reprehenderit culpa animi, dolores soluta quae quisquam fuga ipsa saepe? Nihil enim atque temporibus molestias delectus.</p>
+                    <p>
+                        Sé parte de nuestro equipo y abajo: Nuestra misión es contribuir al progreso de las personas y las empresas. 
+                    </p>
                 </div>
 
             </div>
 
        </div>
          
-       <div id="footer" class="container-fluid">
+       {{-- <div id="footer" class="container-fluid">
         <div class="row">
             <div  class="col-md-12 text-center text-white">
                 <h2> Información de ka  en DGL Latam</h2>
@@ -49,8 +51,8 @@
         
         </div>
    
-    </div>
-    <div class="container my-3">
+    </div> --}}
+    {{-- <div class="container my-3">
         <div class="row">
             <div class="col-md-12">
                 <h2> Info de la empresa </h2>
@@ -65,7 +67,7 @@
         </div>
 
    </div>
-     
+      --}}
    <div id="footer" class="container-fluid">
     <div class="row">
         <div  class="col-md-12 text-center text-white">

@@ -4,7 +4,7 @@
 	@endsection
 	
 	@section('content')
-  <div class="container-fluid py-4  " id="header_img2" >
+  <div class="container-fluid py-4  " id="header_img4" >
     <div class="container-fluid" >
      <div class="row ">
       <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
@@ -42,7 +42,7 @@
       <div class="row my-5 p-y5 text-center">
         <div class="col-md-12 mt-5 center-block text-center justify-content-center">
           <a href="#title">
-            <button  id="header_button" type="button"  class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+            {{-- <button  id="header_button" type="button"  class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button> --}}
           </a>
         </div>
       </div>

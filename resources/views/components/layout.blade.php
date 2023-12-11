@@ -53,10 +53,10 @@
 
                   @endif
                   @if($dir=='distributor')
-                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('distributor')}}">Únete a la Familia</a></li>
 
                   @else
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Quiero ser distribuidor</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('distributor')}}">Únete a la Familia</a></li>
 
                   @endif
 
@@ -65,6 +65,13 @@
 
                   @else
                   <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('find_us')}}">Encuéntranos</a></li>
+
+                  @endif
+                  @if($dir=='brands')
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url('brands')}}">Marcas</a></li>
+
+                  @else
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('brands')}}">Marcas</a></li>
 
                   @endif
                   @if($dir=='hr')
@@ -82,6 +89,8 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="{{url('blogDisp')}}">Blog</a></li>
 
                   @endif
+
+
 
 
 
@@ -222,15 +231,17 @@ function initMap() {
     var map;
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 19,
-    center: { lat:19.44470634333933, lng: -99.21525594605494 },
+    center: { lat:19.4444353, lng: -99.2152457 },
     mapTypeControl: false,
 
 
   });
   new google.maps.Marker({
-    position: myLatLng,
+    // position: {lat:19.44470634333933, lng: -99.215246},
+    position: {lat: 19.4443573997 , lng: -99.2155216634},
+
     map,
-    title: "Hello World!",
+    title: "DGL Latam",
 });
   geocoder = new google.maps.Geocoder();
 
@@ -262,12 +273,7 @@ function initMap() {
   instructionsElement.id = "instructions";
   instructionsElement.innerHTML =
     "<strong>Instructions</strong>: Enter an address in the textbox to geocode or click on the map to reverse geocode.";
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(inputText);
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(submitButton);
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(clearButton);
-  map.controls[google.maps.ControlPosition.LEFT_TOP].push(
-    instructionsElement
-  );
+  x
   map.controls[google.maps.ControlPosition.LEFT_TOP].push(responseDiv);
 
   map.addListener("click", (e) => {
@@ -283,7 +289,7 @@ function initMap() {
 }
 
 function clear() {
-  marker.setMap(null);
+  // marker.setMap(null);
 }
 
 function geocode(request) {
@@ -307,7 +313,7 @@ function geocode(request) {
 window.initMap = initMap;
 
     </script>
- 
+
 
     <script type="text/javascript"
         src="https://maps.google.com/maps/api/js?key={{ env('GOOGLE_MAP_KEY') }}&callback=initMap" ></script>

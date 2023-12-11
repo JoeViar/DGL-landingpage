@@ -21,8 +21,8 @@ a:hover{
     }
 }
 #nav_logo1{
-    height: 10%;
-    width: 45%;
+    height: 20%;
+    width: 32%;
     
 
 
@@ -61,6 +61,7 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
   width: 100%; 
   height: 90vh;
   
+  background-image: url('../assets/logos/LogosPNG/LogosSize/Nosotros.png');
   
 
   background-position: center; /* Center the image */
@@ -72,14 +73,49 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
     width: 100%; 
     height: 90vh;
     
-    background-image: url('../assets/img/header2.png');
+    background-image: url('../assets/logos/LogosPNG/LogosSize/Distribuidor.png');
     background-color: #cccccc;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
         
     }
-    
+    #header_img4{
+
+      width: 100%; 
+      height: 90vh;
+      
+      background-image: url('../assets/img/Encuéntranos.png');
+      background-color: #cccccc;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+          
+      }
+      #header_img5{
+
+        width: 100%; 
+        height: 90vh;
+        
+        background-image: url('../assets/logos/LogosPNG/LogosSize/Bolsa-De-trabajo.png');
+        background-color: #cccccc;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+            
+        }
+        #header_img6{
+
+          width: 100%; 
+          height: 90vh;
+          
+          background-image: url('../assets/logos/LogosPNG/LogosSize/blog.png');
+          background-color: #cccccc;
+          background-position: center; /* Center the image */
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+              
+          }    
 #header_title{
     color: #f8f8f8;
     text-shadow: 8px 8px 4px #555;
@@ -87,10 +123,11 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
     padding-top: max( 10px, 3%);
     margin-top: 5%;
 }
+
 @media (max-width:500px) {
   #header_title{
-    color: #ff7b43;
-    font-size: calc(36px + 3vw);
+    color: #f8f8f8;
+    font-size: calc(28px + 3vw);
     padding-top: max( 10px, 3%);
     margin-top: 5%;
   }
@@ -247,13 +284,7 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
     margin-right: 50%;
 }
 
-#footer_menu_left{
- 
-}
-#footer_menu_right{
-  
-  
-   }
+
    #footer_logo{
     height: auto;
     width: 50%;
@@ -373,6 +404,7 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
 }
 .numbrer_our_numbers{
     color: #ff7b43;
+    font-weight: bold;
 
 }
 
@@ -531,6 +563,12 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
   height: 100px;
   object-fit: contain;
  }
+ #imgCarrousel1{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+ }
+
  .timeline {
 	max-width: 100%;
 	list-style: none;
@@ -1182,7 +1220,8 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
   .grid-item{
     width:40%;
     padding: 10px;
-    margin: 10px;
+    margin-bottom: 15%;
+    margin-right: 5%;
     /* color: #fff; */
   }
   .grid-item-width{
@@ -1191,8 +1230,8 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
   .flower{
     background: teal;
   }
-  .bird{
-    background: aquamarine;
+  .etail{
+    background: white;
   }
   .fruit{
     background: purple;
@@ -1219,4 +1258,46 @@ box-shadow: inset 0 0 0 2000px rgba(220, 220, 220, .5);
  .v-down {
   display: inline-block;
   align-items: bottom;
+}
+.btn-channels{
+  background-color: #ffffff;
+  font-size:  calc(19px + .5vw);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
+  border-color: #3e6890;
+  border-radius: 1.5rem;
+  font-weight: bold;
+
+  color: #ff7b43;
+}
+@media(max-width:500px){
+  .btn-channels{
+    background-color: #ffffff;
+    font-size:  calc(19px );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
+    border-color: #3e6890;
+    border-radius: 1.5rem;
+    font-weight: bold;
+  
+    color: #ff7b43;
+  }
+}
+
+
+.btn-channels:active{
+  color: #ffffff;
+  font-size:  calc(19px + .5vw);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
+  border-radius: 1.5rem;
+  font-weight: bold;
+
+  background-color: #00386e;
+}
+.btn-channels:visited{
+  color: #ffffff;
+  font-size:  calc(19px + .5vw);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0.5);
+  border-radius: 1.5rem;
+  font-weight: bold;
+
+  background-color: #00386e;
 }

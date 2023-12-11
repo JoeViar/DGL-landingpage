@@ -6,7 +6,7 @@
     <div class="item">
 
 
-         <div class="container-fluid py-4  " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Home.png');
+         <div class="container-fluid py-4  " style="  background-image: url('../assets/img/Home.png');
          " id="header_img" >
            <div x class="container-fluid" >
               <div class="row ">
@@ -30,11 +30,11 @@
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
-        <div class="container-fluid py-4   " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Distribuidor.png');" id="header_img" >
+        <div class="container-fluid py-4   " style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Nosotros.png');" id="header_img" >
           <div class="container-fluid" >
            <div class="row ">
             <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
-              <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+              <h1 class="" id="header_title" >Únete a la familia </h1>
 
               {{-- @if($dir=='index')
                 <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
@@ -78,7 +78,7 @@
     <div class="item">
       {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
 
-        <div class="container-fluid py-4  "style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Encuentranos.png');" id="header_img" >
+        <div class="container-fluid py-4  "style="  background-image: url('../assets/img/Encuéntranos.png');" id="header_img" >
           <div class="container-fluid" >
            <div class="row ">
             <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
@@ -116,6 +116,52 @@
             <div class="row my-5 p-y5 text-center">
               <div class="col-md-12 mt-5 center-block text-center justify-content-center">
                 <button  id="header_button" type="button" onclick="window.location='{{ route("find")}}'" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
+             </div>
+            </div>
+         </div> 
+      </div>
+    </div>
+    <div class="item">
+      {{-- <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazon.png')}}" alt="image"/> --}}
+
+        <div class="container-fluid py-4  "style="  background-image: url('../assets/logos/LogosPNG/LogosSize/Marcas.png');" id="header_img" >
+          <div class="container-fluid" >
+           <div class="row ">
+            <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
+              <h1 class="" id="header_title" >Nuestras Marcas </h1>
+
+              {{-- @if($dir=='index')
+                <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
+
+              @else
+                @if($dir=='about_us')
+                  <h1 class="" id="header_title" >Sobre Nosotros  </h1>
+                @else
+                  @if($dir=='distributor')
+                    <h1 class="" id="header_title" >Conviértete en distribuidor </h1>
+                  @else
+                    @if($dir=='find_us')
+                      <h1 class="" id="header_title" >Encuéntranos </h1>
+                    @else
+                      @if($dir=='hr')
+                        <h1 class="" id="header_title" >Bolsa de trabajo </h1>
+                      @else
+                        @if($dir=='blogDisp')
+                          <h1 class="" id="header_title" >Blog </h1>
+                        @endif
+                      @endif
+                    @endif
+
+
+                  @endif
+                @endif
+
+              @endif --}}
+           </div>
+         </div>
+            <div class="row my-5 p-y5 text-center">
+              <div class="col-md-12 mt-5 center-block text-center justify-content-center">
+                <button  id="header_button" type="button" onclick="window.location='{{ route("brands")}}'" class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button>
              </div>
             </div>
          </div> 
@@ -228,58 +274,58 @@
 
         <div class="container-fluid my-3 py-3">   
             <div class="col-lg-12 grid-margin text-center ">
-              <h3 id="orange_title">Nuestros Aliados </h3>
+              <h3 style="font-weight: bold" id="orange_title">Marcas Destacadas </h3>
                  
               <div class="owl-carousel my-4">
-                <div class="item">
-                    <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/amazfit.png')}}" alt="image"/>
+                <div class="item mx-4">
+                    <img   id="imgCarrousel1" src="{{asset('assets/logos/LogosPNG/LogosSize/amazfit.png')}}" alt="image"/>
                 </div>
-                <div class="item">
+                {{-- <div class="item m-1">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/apple.png')}}" alt="image"/>
-                </div>
+                </div> --}}
 
-                <div class="item">
+                <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/DELL.png')}}" alt="image"/>
                 </div>
-                <div class="item">
+                <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/epson.png')}}" alt="image"/>
                 </div>
-                <div class="item">
+                <div class="item mx-4">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/Honor.png')}}" alt="image"/>
                 </div>
 
-                 <div class="item">
+                 <div class="item mx-4">
                     <img  id="imgCarrousel"src="{{asset('assets/logos/LogosPNG/LogosSize/HP.png')}}" alt="image"/>
                 </div>
-                <div class="item">
+                <div class="item mx-4">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/hurley.png')}}" alt="image"/>
                 </div>
 
-                <div class="item">
+                <div class="item mx-4">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/LENOVO.png')}}" alt="image"/>
                 </div>
 
-                <div class="item">
+                <div class="item mx-4">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/nintendo.png')}}" alt="image"/>
                 </div>
 
-                 <div class="item">
+                 <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/OMEN.png')}}" alt="image"/>
                 </div>
-                <div class="item">
+                <div class="item mx-4">
                     <img   id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/samsung.png')}}" alt="image"/>
                 </div>
 
-                 <div class="item">
+                 <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/TCL.png')}}" alt="image"/>
                 </div>
-                 <div class="item">
+                 <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/XBOX.png')}}" alt="image"/>
                 </div>
-                 <div class="item">
+                 <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/xiaomi.png')}}" alt="image"/>
                 </div>
-                 <div class="item">
+                 <div class="item mx-4">
                     <img  id="imgCarrousel" src="{{asset('assets/logos/LogosPNG/LogosSize/ZTE.png')}}" alt="image"/>
                 </div>
                  {{-- <div class="item">
@@ -391,14 +437,34 @@
 
             </div>
 
-            <div class="filter">
-              <h1>Filtering</h1>
+            <div class="container">
+              
+           
+            <div class="filter text-center">
+              <h2 style="font-size: 3rem; font-weight: bold;" class="orangeColor mb-5">Canales de venta</h2>
+
+              <div  class="row justify-content-between ">
+
+                <div class="col-6 my-2  col-md-2">
+                  <button data-name=".etail" class="btn-channels py-3   px-4">Etail</button>
+                </div>
+                <div class="col-6 my-2   col-md-2">
+                  <button data-name=".marketplace" class="btn-channels py-3   px-4">Marketplace</button>
+                
+                </div>
+                <div class="col-6 my-2  col-md-2">
+                  <button data-name=".b2b" class="btn-channels py-3 px-4">B2B</button>
+                </div>
+                <div class="col-6 my-2  col-md-2">
+                  <button data-name=".retail" class="btn-channels py-3  px-4">Retail</button>
+
+                
+                </div>
+
+
+              </div>
+           
               {{-- <button data-name='*' class="btn btn-info active">All</button> --}}
-              <button data-name=".fruit" class="btn btn-primary">Etail</button>
-              <button data-name=".flower" class="btn btn-danger">Marketplace</button>
-              <button data-name=".bird" class="btn btn-success">B2B</button>
-              <button data-name=".bird" class="btn btn-success">Retail Regional</button>
-              <button data-name=".bird" class="btn btn-success">Retail</button>
 
 
             </div>
@@ -408,23 +474,110 @@
               <button data-name='original-order' class="btn btn-info active">original</button>
               <button data-name='random' class="btn btn-dark">random</button>
             </div> --}}
-            <div class="grid">
-              <div class="grid-item flower">
-                <img src="{{asset('assets/logos/LogosPNG/LogosSize/walmart.png')}}" class="filter-img p-1" alt="">
+            <div class="grid  ml-5 my-5">
+              
+              <div class="grid-item  etail">
+                <img src="{{asset('assets/img/Canales/Etail/wm.png')}}" class="filter-img p-1 " alt="">
               </div>
-              <div class="grid-item bird">Parrot</div>
-              <div class="grid-item fruit">Banana</div>
-              <div class="grid-item flower">Tulip</div>
-              <div class="grid-item bird">Sparrow</div>
-              <div class="grid-item flower">Marigold</div>
-              <div class="grid-item fruit">Orange</div>
-              <div class="grid-item bird">Owl</div>
-              <div class="grid-item bird">
-                <img src="#" alt="">
+              <div class="grid-item  etail">
+                <img src="{{asset('assets/img/Canales/Etail/elektra.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  etail">
+                <img src="{{asset('assets/img/Canales/Etail/liv.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item    etail">
+                <img src="{{asset('assets/img/Canales/Etail/coppel.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/amazon.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/ciberpuerta.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/claroshop.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/doto.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/linio.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/meli.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  marketplace">
+                <img src="{{asset('assets/img/Canales/Market/privalia.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/ct.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/cva.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/delta.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/ecel.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/electro.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/ingram.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/pcl.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/vistara.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  b2b">
+                <img src="{{asset('assets/img/Canales/B2B/yuhudils.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/CHEDRAUI.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/liv.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/lumen.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/miup.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/office-depot.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/radioshack.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/samborns.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/sams.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/sears.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/suburbia.png')}}" class="filter-img p-1 " alt="">
+              </div>
+              <div class="grid-item  retail">
+                <img src="{{asset('assets/img/Canales/Retail/wm.png')}}" class="filter-img p-1 " alt="">
               </div>
 
+
+
+
+             
+
             </div>
-           
+          </div>
          
             
             
@@ -527,7 +680,7 @@
               }
             });
             $grid.isotope({
-                  filter: ".bird"
+                  filter: ".etail"
                 });
             $('.filter button').on("click", function () {
               var value = $(this).attr('data-name');

@@ -55,13 +55,15 @@ $(document).ready(function() {
    
       autoPlay: 5300,
       items : 1,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3],
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [979,1],
       center: true,
       nav:true,
       loop:true,
       responsive: {
-        600: {
+   
+
+        1199: {
           items: 1,
           loop:true
         }
