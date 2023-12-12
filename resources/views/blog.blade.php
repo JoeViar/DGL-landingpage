@@ -61,12 +61,13 @@ items.forEach((el) => {
             {{-- <button  id="header_button" type="button"  class="btn mt-5"><p style="font-size: 1000 px;"> Conoce más</p></button> --}}
           </a>
         </div>
+        </div>
       </div>
-   </div>
-</div>
+  </div>
   <div class="container p-5">
     <div class="row">
       <div class="col-md-6">
+          <a href="{{route('blogEntry')}}">
           <div class="container P-4">
             <div class="row py-1">
               <img src="{{asset('assets/img/blog_cover.png')}}" alt="" style="heigth: 50px;" class="img-fluid">
@@ -100,8 +101,10 @@ items.forEach((el) => {
             </div>
 
           </div>
-      </div>
+        </div>
+      </a>
       <div class="col-md-6">
+        <a href="{{route('blogEntry2')}}">
           <div class="container P-4">
             <div class="row py-1">
               <img src="{{asset('assets/img/blog_cover2.png')}}" alt="" style="heigth: 50px;" class="img-fluid">
@@ -119,11 +122,12 @@ items.forEach((el) => {
                 
                  
                 
-                Al enfocarnos en nuestra relajación, nos permitimos abordar los desafíos cotidianos con una perspectiva renovada y para realzar el momento de autocuidado, cada uno recibió un kit lleno de nutrición y vitalidad. Te invitamos a sumarte a la práctica de dedicar tiempo para desconectar, respirar profundamente y permitirte recargar energías diariamente 💚🌱.
+                {{-- Al enfocarnos en nuestra relajación, nos permitimos abordar los desafíos cotidianos con una perspectiva renovada y para realzar el momento de autocuidado, cada uno recibió un kit lleno de nutrición y vitalidad. Te invitamos a sumarte a la práctica de dedicar tiempo para desconectar, respirar profundamente y permitirte recargar energías diariamente 💚🌱.
                 
                  
                 
-                Entra a este enlace para ver nuestro video 👉🏻 <a style="color:blue" target="_blank" href="https://bit.ly/3T5Z7YT"> https://bit.ly/3T5Z7YT</a>  </p>
+                Entra a este enlace para ver nuestro video 👉🏻 <a style="color:blue" target="_blank" href="https://bit.ly/3T5Z7YT"> https://bit.ly/3T5Z7YT</a>   --}}
+              </p>
 
             </div>
             <div class="row">
@@ -139,6 +143,7 @@ items.forEach((el) => {
             </div>
 
           </div>
+        </a>
       </div>
       <div class="col-md-6">
           {{-- <div class="container P-4">

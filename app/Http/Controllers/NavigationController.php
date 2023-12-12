@@ -58,5 +58,13 @@ class NavigationController extends Controller
         return view('brands');
     }
 
+    public function blog1(){
+
+        return view('blog.entry');
+    }
+    public function blog2(){
+
+        return view('blog.entry2');
+    }
 
 }

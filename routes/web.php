@@ -29,6 +29,8 @@ Route::get('/about','headerAbout')->name('headerAbout');
 Route::get('/distrib','distrib')->name('distrib');
 Route::get('/find','find')->name('find');
 Route::get('/brands','brands')->name('brands');
+Route::get('/blog/1','blog1')->name('blogEntry');
+Route::get('/blog/2','blog2')->name('blogEntry2');
 
 });
     

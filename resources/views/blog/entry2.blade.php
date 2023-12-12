@@ -7,13 +7,13 @@
 <div>
 
 
-    <div class="container-fluid py-4  " id="image_blog" >
+    <div class="container-fluid py-4  " id="image_blog2" >
         <div class="container-fluid" >
          <div class="row ">
           <div class="col-md-12 mt-5 mx-0  p-5 center-block text-center">
-            <h1 class="" id="blog_entry_title" >    
-                Un recorrido por nuestra celebración del 15 de Septiembre 
-            </h1>
+            {{-- <h1 class="text-white" id="blog_entry_title" >    
+              Rindiendo Homenaje al #DíaMundialDeLaRelajación 🌿 
+            </h1> --}}
     
             {{-- @if($dir=='index')
               <h1 class="mb-5 text-center"id="header_title" > Conócenos </h1>
@@ -50,28 +50,28 @@
 
 
     <div class="container my-3 p-3">
-          {{-- <div class="row">
+          <div class="row">
               <div class="col-md-12">
-                  <h2> Incorporate al equipo de DGL  </h2>
+                  <h2> Rindiendo Homenaje al #DíaMundialDeLaRelajación 🌿  </h2>
               </div>
 
-          </div> --}}
+          </div>
           <div class="row">
               <div class="col-md-12">
                   <p class="text-justify">
-                    Tuvimos la fortuna de conmemorarlo con una explosión de orgullo y cultura mexicana. 💚⚪❤️ Pudimos expresar a todo pulmón nuestro amor por nuestra tierra y nuestras tradiciones 🎉.
-                    Éste año, nuestras oficinas se llenaron con los colores patrios, compartimos un delicioso buffet con fruta, molletes, chilaquiles, huevo y claro que no podía faltar su respectivo tequilita (un caballito solamente 😜).
+                    
+
+                    Nos sumergirnos en la experiencia sosteniendo en nuestras manos un algodón con esencia terapéutica, potenciando la sensación de bienestar y equilibrio durante la sesión, recordando la importancia de cultivar momentos de tranquilidad en medio del constante estrés diario beneficiando así nuestra salud mental.
 
                    </p>
                    <div class=" row justify-content-around m-2 ">
-                    <img src="{{asset('assets/img/blog_id.jpg')}}" alt="" style="width:40%;" class="m-1">
-                    <img src="{{asset('assets/img/blog_cover.png')}}" alt="" style="width:40%" class="m-1">
+                    {{-- <img src="{{asset('assets/img/blog_id.jpg')}}" alt="" style="width:40%;" class="m-1"> --}}
+                    <img src="{{asset('assets/img/blog_cover2.png')}}" alt="" style="width:90%" class="m-1">
  
                    </div>
-                   <p class="text-justify">
-                        Este evento se ha convertido en una tradición en nuestra empresa que nos inspira y une mientras avanzamos hacia el futuro. Y no podemos olvidar que hubo 2 premios para los mejores vestidos (un hombre y una mujer), ambos ganaron un Amazfit GTS 2.                                             
-                        *Adjuntar foto aquí*
-                        Entra a este link para ver nuestro video 👉🏻 <a href="https://bit.ly/3rRSMFl">https://bit.ly/3rRSMFl</a>
+                   <p class="text-justify">  
+                    Al enfocarnos en nuestra relajación, nos permitimos abordar los desafíos cotidianos con una perspectiva renovada y para realzar el momento de autocuidado, cada uno recibió un kit lleno de nutrición y vitalidad. Te invitamos a sumarte a la práctica de dedicar tiempo para desconectar, respirar profundamente y permitirte recargar energías diariamente 💚🌱.
+                    Entra a este enlace para ver nuestro video 👉🏻  <a href="https://bit.ly/3T5Z7YT">https://bit.ly/3T5Z7YT</a>
                    </p>
               </div>
 
